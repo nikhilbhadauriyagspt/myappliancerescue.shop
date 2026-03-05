@@ -112,7 +112,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-slate-500 text-[10px] font-black uppercase tracking-widest mb-1">Location</p>
-              <p className="text-white font-black text-lg">30 W Lake St, Addison, IL 60101, United States</p>
+              <p className="text-white font-black text-lg">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
             </div>
           </div>
 
@@ -143,4 +143,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
 

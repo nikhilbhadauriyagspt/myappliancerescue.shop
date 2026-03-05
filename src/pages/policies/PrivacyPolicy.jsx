@@ -425,7 +425,7 @@ export default function PrivacyPolicy() {
                         </div>
                         <div>
                           <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0">Address</p>
-                          <p className="font-bold text-lg m-0 text-white">30 W Lake St, Addison, IL 60101, United States</p>
+                          <p className="font-bold text-lg m-0 text-white">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
                         </div>
                       </div>
                     </div>
@@ -447,4 +447,5 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
+
 

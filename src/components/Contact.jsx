@@ -124,13 +124,13 @@ const Contact = () => {
             style={{ border: 0, filter: 'grayscale(100%) contrast(1.2) invert(90%)' }}
             loading="lazy"
             allowFullScreen
-            src="https://maps.google.com/maps?q=30%20W%20Lake%20St,%20Addison,%20IL%2060101,%20United%20States&t=&z=15&ie=UTF8&iwloc=&output=embed">
+            src="https://maps.google.com/maps?q=149%20W%2036th%20St.%205th%20Floor,%20New%20York,%20NY%2010018,%20United%20States&t=&z=15&ie=UTF8&iwloc=&output=embed">
           </iframe>
 
           {/* Address Overlay Card */}
           <div className="absolute bottom-10 left-10 z-20 bg-white p-8 rounded-[32px] shadow-2xl max-w-xs border border-slate-100 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
             <h5 className="text-[10px] font-black uppercase tracking-[3px] text-secondary mb-3">Service Headquarters</h5>
-            <p className="text-primary font-black text-lg leading-tight mb-4">30 W Lake St, Addison, IL 60101, United States</p>
+            <p className="text-primary font-black text-lg leading-tight mb-4">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
             <div className="flex items-center gap-2 text-slate-400 text-[10px] font-bold uppercase tracking-widest">
               <FaMapMarkerAlt className="text-secondary" /> Open for walk-ins
             </div>
@@ -142,4 +142,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
 

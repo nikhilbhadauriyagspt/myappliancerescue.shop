@@ -78,7 +78,7 @@ export default function RefundPolicy() {
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 font-bold text-slate-900 mt-4">
                   <p className="m-0">Dear Appliance</p>
                   <p className="m-0">2010 N Loop W #105</p>
-                  <p className="m-0">30 W Lake St, Addison, IL 60101, United States</p>
+                  <p className="m-0">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
                   <p className="m-0">United States</p>
                 </div>
                 <p className="mt-4 text-slate-900">
@@ -135,7 +135,7 @@ export default function RefundPolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Location</p>
-                        <p className="font-bold text-lg m-0 text-white">30 W Lake St, Addison, IL 60101, United States</p>
+                        <p className="font-bold text-lg m-0 text-white">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
                       </div>
                     </div>
                   </div>
@@ -149,4 +149,5 @@ export default function RefundPolicy() {
     </div>
   );
 }
+
 

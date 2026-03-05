@@ -64,7 +64,7 @@ const Header = () => {
                 <div className="leading-tight">
                   <div className="text-[12px] font-extrabold text-slate-900">Location:</div>
                   <div className="text-[12px] text-slate-600">
-                    30 W Lake St, Addison, IL 60101, United States
+                    149 W 36th St. 5th Floor, New York, NY 10018, United States
                   </div>
                 </div>
               </div>
@@ -342,7 +342,7 @@ const Header = () => {
               <FiMapPin className="mt-0.5 text-orange-500" />
               <div>
                 <div className="font-extrabold">Location</div>
-                <div className="text-slate-600">30 W Lake St, Addison, IL 60101, United States</div>
+                <div className="text-slate-600">149 W 36th St. 5th Floor, New York, NY 10018, United States</div>
               </div>
             </div>
 
@@ -374,3 +374,4 @@ const Header = () => {
 };
 
 export default Header;
+

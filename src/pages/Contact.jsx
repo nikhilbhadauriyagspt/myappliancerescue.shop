@@ -108,7 +108,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-slate-400 text-[11px] font-black uppercase tracking-[0.2em] mb-1">Our Service Area</p>
-                    <p className="text-slate-950 font-black text-xl">30 W Lake St, Addison, IL 60101, United States</p>
+                    <p className="text-slate-950 font-black text-xl">149 W 36th St. 5th Floor, New York, NY 10018, United States</p>
                   </div>
                 </div>
               </div>
@@ -188,4 +188,5 @@ const InputField = ({ label, name, type = "text", placeholder, ...props }) => (
 );
 
 export default Contact;
+
 

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { FiPlus, FiMinus } from 'react-icons/fi';
+import { useBooking } from '../context/BookingContext';
 
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const { openBookingModal } = useBooking();
 
   const faqs = [
     {
@@ -49,7 +51,10 @@ const FAQSection = () => {
               <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/20 blur-[60px] rounded-full"></div>
               <h4 className="text-white text-2xl font-black mb-4 relative z-10">Still Have Questions?</h4>
               <p className="text-white/60 font-medium mb-8 relative z-10">We're here to help you get your home back in order.</p>
-              <button className="relative z-10 w-full py-5 bg-orange-500 text-white font-black uppercase tracking-widest text-sm rounded-2xl hover:bg-white hover:text-slate-950 transition-all duration-500">
+              <button
+                onClick={() => openBookingModal()}
+                className="relative z-10 w-full py-5 bg-orange-500 text-white font-black uppercase tracking-widest text-sm rounded-2xl hover:bg-white hover:text-slate-950 transition-all duration-500"
+              >
                 Ask A Expert
               </button>
             </div>
