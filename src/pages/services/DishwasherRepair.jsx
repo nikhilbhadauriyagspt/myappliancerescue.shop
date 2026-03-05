@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiDropFill, PiGearFill, PiThermometerFill, PiWavesFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const DishwasherRepair = () => {
     <ServicePageLayout
       title="Dishwasher"
       titleAccent="Solutions."
-      metaTitle="Premium Dishwasher Repair | Fast & Reliable | My Appliancerescue"
+      metaTitle="Premium Dishwasher Repair | Fast & Reliable | Dear Appliance"
       metaDesc="Professional dishwasher repair for all major brands. We fix drainage issues, leaks, and heating problems with original parts."
       heroDesc="Spotless dishes, zero effort. Our experts provide rapid, reliable repair for all built-in, drawer, and portable dishwasher units."
       image="/service-3.jpg"
@@ -49,3 +49,4 @@ const DishwasherRepair = () => {
 };
 
 export default DishwasherRepair;
+

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiTelevisionFill, PiSpeakerHighFill, PiLightningFill, PiGearFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const TelevisionRepair = () => {
     <ServicePageLayout
       title="Television"
       titleAccent="Specialists."
-      metaTitle="Premium Smart TV & LED Repair | Expert Service | My Appliancerescue"
+      metaTitle="Premium Smart TV & LED Repair | Expert Service | Dear Appliance"
       metaDesc="Professional repair for 4K LED, LCD, and Smart TVs. We fix display issues, power supplies, and audio problems for all major brands."
       heroDesc="Your entertainment, restored. We provide high-precision diagnostics and board-level repair for all major TV brands."
       image="/service-4.jpg"
@@ -49,3 +49,4 @@ const TelevisionRepair = () => {
 };
 
 export default TelevisionRepair;
+

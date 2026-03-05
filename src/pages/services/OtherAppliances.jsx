@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiWrenchFill, PiGearFill, PiMagnifyingGlassFill, PiShieldCheckFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const OtherAppliances = () => {
     <ServicePageLayout
       title="Miscellaneous"
       titleAccent="Appliances."
-      metaTitle="Specialty Appliance Repair | General Expert Service | My Appliancerescue"
+      metaTitle="Specialty Appliance Repair | General Expert Service | Dear Appliance"
       metaDesc="Professional repair for all types of household appliances. Master diagnostics and genuine parts replacement for any device."
       heroDesc="If it's broken, we can fix it. From niche kitchen gadgets to specialty home devices, our experts handle the jobs others won't."
       image="/service-6.jpg"
@@ -49,3 +49,4 @@ const OtherAppliances = () => {
 };
 
 export default OtherAppliances;
+

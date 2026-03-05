@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { blogsData as blogs } from '../data/blogs';
@@ -29,7 +29,7 @@ const BlogDetails = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>{blog.title} | My Appliancerescue Blog</title>
+        <title>{blog.title} | Dear Appliance Blog</title>
         <meta name="description" content={blog.excerpt || blog.title} />
       </Helmet>
 
@@ -138,3 +138,4 @@ const BlogDetails = () => {
 };
 
 export default BlogDetails;
+

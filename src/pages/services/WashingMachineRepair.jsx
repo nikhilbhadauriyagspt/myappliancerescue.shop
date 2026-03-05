@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiDropFill, PiGearFill, PiLightningFill, PiShieldCheckFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const WashingMachineRepair = () => {
     <ServicePageLayout
       title="Washing Machine"
       titleAccent="Experts."
-      metaTitle="Premium Washing Machine Repair | Fast & Expert | My Appliancerescue"
+      metaTitle="Premium Washing Machine Repair | Fast & Expert | Dear Appliance"
       metaDesc="Get your washing machine fixed today. We repair all front-load and top-load brands with original parts and elite care."
       heroDesc="Laundry simplified. We provide rapid, honest, and high-performance repair for all washing machine types right at your doorstep."
       image="/service-1.jpg"
@@ -49,3 +49,4 @@ const WashingMachineRepair = () => {
 };
 
 export default WashingMachineRepair;
+

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiCoffeeFill, PiThermometerFill, PiGearFill, PiDropFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const CoffeeMakerRepair = () => {
     <ServicePageLayout
       title="Coffee Maker"
       titleAccent="Care."
-      metaTitle="Expert Coffee Machine Repair | Home & Cafe Support | My Appliancerescue"
+      metaTitle="Expert Coffee Machine Repair | Home & Cafe Support | Dear Appliance"
       metaDesc="Professional coffee maker repair for all premium brands. We fix heating, pressure pumps, and offer deep descaling."
       heroDesc="Your morning cup matters. We provide specialized repair and maintenance for high-end home and commercial brewing systems."
       image="/service-5.jpg"
@@ -49,3 +49,4 @@ const CoffeeMakerRepair = () => {
 };
 
 export default CoffeeMakerRepair;
+

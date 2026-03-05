@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { FaPaperPlane, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaHeadset, FaClock } from 'react-icons/fa';
 
 const Contact = () => {
@@ -35,7 +35,7 @@ const Contact = () => {
               <div className="space-y-4">
                 {[
                   { icon: <FaPhoneAlt />, label: 'Direct Line', val: '+1 (530) 554-4817', sub: 'Available 24/7' },
-                  { icon: <FaEnvelope />, label: 'Official Email', val: 'info@myappliancerescue.shop', sub: 'Response within 12h' },
+                  { icon: <FaEnvelope />, label: 'Official Email', val: 'info@dearappliance.com', sub: 'Response within 12h' },
                   { icon: <FaClock />, label: 'Working Hours', val: 'Mon - Sat: 8AM - 9PM', sub: 'Sunday Emergency Only' }
                 ].filter(item => item.label !== 'Direct Line').map((item, i) => (
                   <div key={i} className="flex items-center gap-6 p-6 rounded-[32px] bg-white border border-slate-100 shadow-sm hover:shadow-premium transition-all group">
@@ -142,3 +142,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

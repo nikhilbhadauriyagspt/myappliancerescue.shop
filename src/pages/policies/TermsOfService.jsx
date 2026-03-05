@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowLeft, FiFileText, FiShield } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
@@ -11,9 +11,9 @@ export default function TermsOfService() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Terms of Service | My Appliancerescue - Legal Agreement</title>
-        <meta name="description" content="Read the legal terms and conditions for using My Appliancerescue's services and website." />
-        <link rel="canonical" href="https://myappliancerescue.shop/terms-of-service" />
+        <title>Terms of Service | Dear Appliance - Legal Agreement</title>
+        <meta name="description" content="Read the legal terms and conditions for using Dear Appliance's services and website." />
+        <link rel="canonical" href="https://dearappliance.com/terms-of-service" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -47,19 +47,19 @@ export default function TermsOfService() {
               <section className="bg-slate-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-sm text-slate-600">
                 <h2 className="text-2xl font-bold text-slate-900 mb-6 uppercase tracking-wider">Agreement to our Legal Terms</h2>
                 <p>
-                  We are My Appliancerescue ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company registered in Illinois, United States at 30 W Lake St, Addison, IL 60101, United States.
+                  We are Dear Appliance ("<strong>Company</strong>," "<strong>we</strong>," "<strong>us</strong>," "<strong>our</strong>"), a company registered in Illinois, United States at 30 W Lake St, Addison, IL 60101, United States.
                 </p>
                 <p>
-                  We operate the website <a href="https://myappliancerescue.shop/">https://myappliancerescue.shop/</a> (the "<strong>Site</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").
+                  We operate the website <a href="https://dearappliance.com/">https://dearappliance.com/</a> (the "<strong>Site</strong>"), as well as any other related products and services that refer or link to these legal terms (the "<strong>Legal Terms</strong>") (collectively, the "<strong>Services</strong>").
                 </p>
                 <p>
-                  My Appliancerescue was founded on the principle that household repairs should be handled with the same level of precision as industrial maintenance. We recognize that modern appliances are complex electronic systems that require specialized knowledge and calibrated tools for effective servicing.
+                  Dear Appliance was founded on the principle that household repairs should be handled with the same level of precision as industrial maintenance. We recognize that modern appliances are complex electronic systems that require specialized knowledge and calibrated tools for effective servicing.
                 </p>
                 <p>
-                  You can contact us by email at <a href="mailto:info@myappliancerescue.shop">info@myappliancerescue.shop</a>, or by mail to 30 W Lake St, Addison, IL 60101, United States.
+                  You can contact us by email at <a href="mailto:info@dearappliance.com">info@dearappliance.com</a>, or by mail to 30 W Lake St, Addison, IL 60101, United States.
                 </p>
                 <p>
-                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and My Appliancerescue, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
+                  These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Dear Appliance, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. <strong>IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</strong>
                 </p>
                 <p>Supplemental terms and conditions or documents that may be posted on the Services from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Legal Terms at any time and for any reason. We will alert you about any changes by updating the "Last updated" date of these Legal Terms, and you waive any right to receive specific notice of each such change. It is your responsibility to periodically review these Legal Terms to stay informed of updates. You will be subject to, and will be deemed to have been made aware of and to have accepted, the changes in any revised Legal Terms by your continued use of the Services after the date such revised Legal Terms are posted.</p>
                 <p>The Services are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to use or register for the Services.</p>
@@ -109,7 +109,7 @@ export default function TermsOfService() {
                 <h3 className="text-xl font-bold text-slate-900 mt-8 mb-4">Your use of our Services</h3>
                 <p>Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable license to: (1) access the Services; and (2) download or print a copy of any portion of the Content to which you have properly gained access, solely for your personal, non-commercial use or internal business purpose.</p>
                 <p>Except as set out in this section or elsewhere in our Legal Terms, no part of the Services and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.</p>
-                <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <strong>info@myappliancerescue.shop</strong>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
+                <p>If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to: <strong>info@dearappliance.com</strong>. If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.</p>
 
                 <h3 className="text-xl font-bold text-slate-900 mt-8 mb-4">Your submissions</h3>
                 <p>Please review this section and the "PROHIBITED ACTIVITIES" section carefully prior to using our Services to understand the (a) rights you give us and (b) obligations you have when you post or upload any content through the Services.</p>
@@ -121,7 +121,7 @@ export default function TermsOfService() {
                   <li>warrant that any such Submission are original to you or that you have the necessary rights and licenses to submit such Submissions and that you have full authority to grant us the above-mentioned rights in relation to your Submissions; and</li>
                   <li>warrant and represent that your Submissions do not constitute confidential information.</li>
                 </ul>
-                <p>You are solely responsible for your Submissions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third party’s intellectual property rights, or (c) applicable law.</p>
+                <p>You are solely responsible for your Submissions and you expressly agree to reimburse us for any and all losses that we may suffer because of your breach of (a) this section, (b) any third partyâ€™s intellectual property rights, or (c) applicable law.</p>
               </section>
 
               <section id="representations">
@@ -143,11 +143,11 @@ export default function TermsOfService() {
                   <li>Make improper use of our support services or submit false reports of abuse or misconduct.</li>
                   <li>Use the Services in a manner inconsistent with any applicable laws or regulations.</li>
                   <li>Engage in unauthorized framing of or linking to the Services.</li>
-                  <li>Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.</li>
+                  <li>Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any partyâ€™s uninterrupted use and enjoyment of the Services or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Services.</li>
                   <li>Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.</li>
                   <li>Delete the copyright or other proprietary rights notice from any Content.</li>
                   <li>Attempt to impersonate another user or person or use the username of another user.</li>
-                  <li>Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").</li>
+                  <li>Upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats ("gifs"), 1Ã—1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as "spyware" or "passive collection mechanisms" or "pcms").</li>
                   <li>Interfere with, disrupt, or create an undue burden on the Services or the networks or services connected to the Services.</li>
                   <li>Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Services to you.</li>
                   <li>Attempt to bypass any measures of the Services designed to prevent or restrict access to the Services, or any portion of the Services.</li>
@@ -181,7 +181,7 @@ export default function TermsOfService() {
 
               <section id="privacy">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">8. PRIVACY POLICY</h2>
-                <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://myappliancerescue.shop/privacy-policy">https://myappliancerescue.shop/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services is hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.</p>
+                <p>We care about data privacy and security. Please review our Privacy Policy: <a href="https://dearappliance.com/privacy-policy">https://dearappliance.com/privacy-policy</a>. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services is hosted in the United States. If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States, then through your continued use of the Services, you are transferring your data to the United States, and you expressly consent to have your data transferred to and processed in the United States.</p>
               </section>
 
               <section id="termination">
@@ -223,7 +223,7 @@ export default function TermsOfService() {
 
               <section id="indemnification">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">16. INDEMNIFICATION</h2>
-                <p>You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneys’ fees and expenses, made by any third party due to or arising out of: (1) use of the Services; (2) breach of these Legal Terms; (3) any breach of your representations and warranties set forth in these Legal Terms; (4) your violation of the rights of a third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.</p>
+                <p>You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including reasonable attorneysâ€™ fees and expenses, made by any third party due to or arising out of: (1) use of the Services; (2) breach of these Legal Terms; (3) any breach of your representations and warranties set forth in these Legal Terms; (4) your violation of the rights of a third party, including but not limited to intellectual property rights; or (5) any overt harmful act toward any other user of the Services with whom you connected via the Services. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.</p>
               </section>
 
               <section id="data">
@@ -258,7 +258,7 @@ export default function TermsOfService() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0">Company</p>
-                        <p className="font-bold text-lg m-0 text-white">My Appliancerescue</p>
+                        <p className="font-bold text-lg m-0 text-white">Dear Appliance</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
@@ -267,7 +267,7 @@ export default function TermsOfService() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0">Email</p>
-                        <p className="font-bold text-lg m-0 text-white">info@myappliancerescue.shop</p>
+                        <p className="font-bold text-lg m-0 text-white">info@dearappliance.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -290,3 +290,4 @@ export default function TermsOfService() {
     </div>
   );
 }
+

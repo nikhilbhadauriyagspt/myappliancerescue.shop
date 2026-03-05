@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiThermometerFill, PiGearFill, PiArrowsClockwiseFill, PiWindFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const ClothesDryerRepair = () => {
     <ServicePageLayout
       title="Clothes Dryer"
       titleAccent="Specialists."
-      metaTitle="Professional Clothes Dryer Repair | Fast Local Service | My Appliancerescue"
+      metaTitle="Professional Clothes Dryer Repair | Fast Local Service | Dear Appliance"
       metaDesc="Expert repair for all residential dryer brands. We fix heating issues, replace worn belts, and perform safety vent cleaning."
       heroDesc="Don't let damp clothes pile up. We provide high-performance repair for all dryer types, ensuring your laundry routine never skips a beat."
       image="/service-11.jpg"
@@ -49,3 +49,4 @@ const ClothesDryerRepair = () => {
 };
 
 export default ClothesDryerRepair;
+

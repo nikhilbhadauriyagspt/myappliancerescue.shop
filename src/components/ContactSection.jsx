@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { API_ENDPOINTS } from '../config/api';
 import { FiSend, FiMail, FiMapPin, FiPhoneCall, FiCheckCircle } from 'react-icons/fi';
 
@@ -67,7 +67,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-slate-400 text-[11px] font-black uppercase tracking-[0.2em] mb-1">Email Support</p>
-                  <a href="mailto:info@myappliancerescue.shop" className="text-slate-950 font-black text-xl hover:text-orange-500 transition-colors">info@myappliancerescue.shop</a>
+                  <a href="mailto:info@dearappliance.com" className="text-slate-950 font-black text-xl hover:text-orange-500 transition-colors">info@dearappliance.com</a>
                 </div>
               </div>
 
@@ -182,3 +182,4 @@ const InputField = ({ label, name, type = "text", placeholder, ...props }) => (
 );
 
 export default ContactSection;
+

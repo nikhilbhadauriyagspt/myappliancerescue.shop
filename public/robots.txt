@@ -1,5 +1,6 @@
-User-agent: *
+﻿User-agent: *
 Allow: /
-Sitemap: https://myappliancerescue.shop/sitemap.xml
+Sitemap: https://dearappliance.com/sitemap.xml
+
 
 

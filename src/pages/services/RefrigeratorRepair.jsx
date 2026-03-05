@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiSnowflakeFill, PiThermometerFill, PiGearFill, PiShieldCheckFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const RefrigeratorRepair = () => {
     <ServicePageLayout
       title="Refrigerator"
       titleAccent="Experts."
-      metaTitle="Premium Refrigerator Repair | Same Day Service | My Appliancerescue"
+      metaTitle="Premium Refrigerator Repair | Same Day Service | Dear Appliance"
       metaDesc="Professional repair for all refrigerator and freezer brands. We fix cooling issues, compressors, and thermostat malfunctions with original parts."
       heroDesc="Keep your food fresh and safe. Our dedicated team provides same-day repair for all major refrigerator and freezer brands at your doorstep."
       image="/service-2.jpg"
@@ -49,3 +49,4 @@ const RefrigeratorRepair = () => {
 };
 
 export default RefrigeratorRepair;
+

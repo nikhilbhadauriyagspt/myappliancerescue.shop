@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowRight, FiShield, FiHeart, FiTarget, FiCheckCircle } from 'react-icons/fi';
 import { PiWrenchFill, PiShieldCheckFill, PiClockFill, PiHandHeartFill, PiUsersThreeFill, PiLightbulbFill } from 'react-icons/pi';
@@ -14,8 +14,8 @@ const About = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>About Us | My Appliancerescue - Our Mission & Team</title>
-        <meta name="description" content="Learn more about My Appliancerescue. We are a dedicated local team providing honest and professional home appliance repair services." />
+        <title>About Us | Dear Appliance - Our Mission & Team</title>
+        <meta name="description" content="Learn more about Dear Appliance. We are a dedicated local team providing honest and professional home appliance repair services." />
       </Helmet>
 
       {/* Hero Section - Modern Dark Premium */}
@@ -36,7 +36,7 @@ const About = () => {
             Simple, Fast & <span className="text-orange-500 italic underline decoration-white/10 underline-offset-[12px]">Honest.</span>
           </h1>
           <p className="text-white/50 text-lg md:text-2xl font-medium max-w-4xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="200">
-            My Appliancerescue was founded on a simple belief: getting your home appliances fixed shouldn't be a source of stress. We're a new, dedicated team here to provide clarity and professional speed.
+            Dear Appliance was founded on a simple belief: getting your home appliances fixed shouldn't be a source of stress. We're a new, dedicated team here to provide clarity and professional speed.
           </p>
         </div>
       </section>
@@ -87,7 +87,7 @@ const About = () => {
                   A Dedicated Team With <br /> <span className="text-orange-500">Unmatched Standards.</span>
                 </h2>
                 <p className="text-slate-500 text-xl font-medium leading-relaxed max-w-xl">
-                  As a locally-owned business, we understand the importance of a functional home. When your fridge stops cooling or your washer leaks, it disrupts your entire life. We built My Appliancerescue to be the reliable expert you can count on.
+                  As a locally-owned business, we understand the importance of a functional home. When your fridge stops cooling or your washer leaks, it disrupts your entire life. We built Dear Appliance to be the reliable expert you can count on.
                 </p>
               </div>
 
@@ -206,7 +206,7 @@ const About = () => {
               "We don't just want to fix your appliance; we want to earn your trust so you never have to worry about home repairs again."
             </p>
             <div className="pt-8">
-              <p className="text-xl font-black text-orange-500 uppercase tracking-widest">The My Appliancerescue Team</p>
+              <p className="text-xl font-black text-orange-500 uppercase tracking-widest">The Dear Appliance Team</p>
             </div>
           </div>
         </div>
@@ -216,3 +216,4 @@ const About = () => {
 };
 
 export default About;
+

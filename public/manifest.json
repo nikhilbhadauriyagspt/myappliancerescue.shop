@@ -1,6 +1,6 @@
 {
-  "short_name": "InstaAppliance",
-  "name": "Insta Appliance - Expert Repair Services",
+  "short_name": "DearAppliance",
+  "name": "Dear Appliance - Expert Repair Services",
   "icons": [
     {
       "src": "/logo/fabicon.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#4f46e5",
+  "theme_color": "#f97316",
   "background_color": "#ffffff"
 }

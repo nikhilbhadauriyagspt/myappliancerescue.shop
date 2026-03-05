@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiFireFill, PiLightningFill, PiThermometerFill, PiGearFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const OvenStoveRepair = () => {
     <ServicePageLayout
       title="Oven & Stove"
       titleAccent="Care."
-      metaTitle="Expert Oven & Gas Stove Repair | Safety Certified | My Appliancerescue"
+      metaTitle="Expert Oven & Gas Stove Repair | Safety Certified | Dear Appliance"
       metaDesc="Professional repair for gas stoves, hobs, and electric ovens. We fix ignition, burners, and thermostats with a focus on safety."
       heroDesc="Master your kitchen again. We provide elite repair and safety certification for all gas hobs, ranges, and convection ovens."
       image="/service-9.jpg"
@@ -49,3 +49,4 @@ const OvenStoveRepair = () => {
 };
 
 export default OvenStoveRepair;
+

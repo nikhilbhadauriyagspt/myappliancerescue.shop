@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowLeft, FiDatabase, FiInfo, FiCheckCircle, FiShield, FiLock } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
@@ -11,9 +11,9 @@ export default function CookiePolicy() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Cookie Policy | My Appliancerescue - Data Usage Standards</title>
-        <meta name="description" content="Understand how My Appliancerescue uses cookies to improve your experience on our repair service website and maintain technical performance." />
-        <link rel="canonical" href="https://myappliancerescue.shop/cookie-policy" />
+        <title>Cookie Policy | Dear Appliance - Data Usage Standards</title>
+        <meta name="description" content="Understand how Dear Appliance uses cookies to improve your experience on our repair service website and maintain technical performance." />
+        <link rel="canonical" href="https://dearappliance.com/cookie-policy" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -33,7 +33,7 @@ export default function CookiePolicy() {
             Cookie <span className="text-amber-500 underline decoration-slate-200 underline-offset-8 italic">Policy.</span>
           </h1>
           <p className="text-slate-500 text-lg font-medium max-w-3xl mx-auto leading-relaxed">
-            Last updated February 06, 2026. This Cookie Policy explains how My Appliancerescue uses cookies and similar tracking technologies.
+            Last updated February 06, 2026. This Cookie Policy explains how Dear Appliance uses cookies and similar tracking technologies.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function CookiePolicy() {
 
               <section className="bg-slate-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-sm text-slate-600">
                 <p>
-                  This Cookie Policy explains how My Appliancerescue (“Company,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you visit our website <a href="https://myappliancerescue.shop/">https://myappliancerescue.shop/</a> (the “Website”). This policy should be read together with our <Link to="/privacy-policy">PRIVACY POLICY</Link> and <Link to="/terms-of-service">TERMS OF SERVICE</Link>.
+                  This Cookie Policy explains how Dear Appliance (â€œCompany,â€ â€œwe,â€ â€œus,â€ or â€œourâ€) uses cookies and similar tracking technologies when you visit our website <a href="https://dearappliance.com/">https://dearappliance.com/</a> (the â€œWebsiteâ€). This policy should be read together with our <Link to="/privacy-policy">PRIVACY POLICY</Link> and <Link to="/terms-of-service">TERMS OF SERVICE</Link>.
                 </p>
               </section>
 
@@ -58,7 +58,7 @@ export default function CookiePolicy() {
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">2. How We Use Cookies</h2>
-                <p>My Appliancerescue uses cookies and similar technologies to:</p>
+                <p>Dear Appliance uses cookies and similar technologies to:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Ensure the Website functions properly</li>
                   <li>Maintain security and prevent fraudulent activity</li>
@@ -114,24 +114,24 @@ export default function CookiePolicy() {
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">4. Third-Party Tracking Technologies</h2>
                 <p>We may use third-party services such as Google Analytics to analyze Website usage and traffic patterns. These third parties may use cookies or similar technologies to collect information about your online activities across different websites.</p>
-                <p>You can learn more about Google’s data practices by visiting Google’s Privacy & Terms page or opt out using Google’s opt-out tools, as referenced in our <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
+                <p>You can learn more about Googleâ€™s data practices by visiting Googleâ€™s Privacy & Terms page or opt out using Googleâ€™s opt-out tools, as referenced in our <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
               </section>
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">5. Your Cookie Choices and Controls</h2>
                 <p>You have the right to accept or reject cookies. Most web browsers automatically accept cookies, but you can usually modify your browser settings to decline cookies or alert you when cookies are being sent.</p>
                 <p>Please note that disabling cookies may affect certain features or functionality of the Website.</p>
-                <p>For more information on managing cookies, visit your browser’s help section.</p>
+                <p>For more information on managing cookies, visit your browserâ€™s help section.</p>
               </section>
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">6. Do Not Track Signals</h2>
-                <p>Some browsers offer a “Do Not Track” (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and My Appliancerescue does not currently respond to such signals <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
+                <p>Some browsers offer a â€œDo Not Trackâ€ (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and Dear Appliance does not currently respond to such signals <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
               </section>
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">7. Updates to This Cookie Policy</h2>
-                <p>We may update this Cookie Policy from time to time to reflect changes in industry standards, legal requirements, or our practices. Any updates will be indicated by a revised “Last Updated” date at the top of this policy.</p>
+                <p>We may update this Cookie Policy from time to time to reflect changes in industry standards, legal requirements, or our practices. Any updates will be indicated by a revised â€œLast Updatedâ€ date at the top of this policy.</p>
               </section>
 
               <section id="contact">
@@ -147,7 +147,7 @@ export default function CookiePolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Email Support</p>
-                        <p className="font-bold text-lg m-0 text-white">info@myappliancerescue.shop</p>
+                        <p className="font-bold text-lg m-0 text-white">info@dearappliance.com</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -170,3 +170,4 @@ export default function CookiePolicy() {
     </div>
   );
 }
+

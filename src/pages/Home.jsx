@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -22,15 +22,15 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>My Appliancerescue - Trusted Home Appliance Repair Services</title>
+        <title>Dear Appliance - Trusted Home Appliance Repair Services</title>
         <meta name="description" content="Reliable home appliance repair near you. Experts in washing machines, refrigerators, ACs & more. Certified specialists, same-day service, fair pricing." />
-        <link rel="canonical" href="https://myappliancerescue.shop/" />
+        <link rel="canonical" href="https://dearappliance.com/" />
 
         {/* Social Media Sharing Tags */}
-        <meta property="og:title" content="My Appliancerescue - Trusted Home Appliance Repair Services" />
+        <meta property="og:title" content="Dear Appliance - Trusted Home Appliance Repair Services" />
         <meta property="og:description" content="Reliable home appliance repair near you. Experts in washing machines, refrigerators, ACs & more. Certified specialists, same-day service, fair pricing." />
-        <meta property="og:image" content="https://myappliancerescue.shop/logo/logo.png" />
-        <meta property="og:url" content="https://myappliancerescue.shop/" />
+        <meta property="og:image" content="https://dearappliance.com/logo/logo.png" />
+        <meta property="og:url" content="https://dearappliance.com/" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <HeroSection />
@@ -46,3 +46,4 @@ const Home = () => {
 };
 
 export default Home;
+

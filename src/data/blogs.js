@@ -1,29 +1,29 @@
-export const blogsData = [
+﻿export const blogsData = [
   {
     id: 1,
     title: 'How to Keep Your AC Running Efficiently All Year Long',
     date: 'Feb 24, 2026',
-    author: 'My Appliancerescue Team',
+    author: 'Dear Appliance Team',
     shortDesc: 'Proper maintenance not only improves cooling performance but also lowers electricity bills and extends lifespan.',
     longDesc: `
-      <p>Air conditioners are no longer a luxury — they’re a necessity, especially in regions where summers are intense and humidity levels are high. Whether you use a split AC, window AC, or central cooling system, keeping it running efficiently throughout the year is essential. An efficient air conditioner not only keeps your home comfortable but also reduces electricity bills, prevents sudden breakdowns, and extends the lifespan of the unit.</p>
+      <p>Air conditioners are no longer a luxury â€” theyâ€™re a necessity, especially in regions where summers are intense and humidity levels are high. Whether you use a split AC, window AC, or central cooling system, keeping it running efficiently throughout the year is essential. An efficient air conditioner not only keeps your home comfortable but also reduces electricity bills, prevents sudden breakdowns, and extends the lifespan of the unit.</p>
       
-      <p>In this comprehensive guide, we’ll walk you through practical and professional tips to keep your AC running efficiently all year long.</p>
+      <p>In this comprehensive guide, weâ€™ll walk you through practical and professional tips to keep your AC running efficiently all year long.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">1. Clean or Replace Air Filters Regularly</h4>
       <p>One of the simplest yet most important maintenance steps is cleaning or replacing the air filter. Dirty filters restrict airflow, reduce cooling efficiency, increase energy consumption, and strain the compressor.</p>
       <ul class="list-disc pl-5 mb-4">
-        <li>Clean reusable filters every 2–4 weeks during heavy usage seasons.</li>
-        <li>Replace disposable filters every 2–3 months.</li>
+        <li>Clean reusable filters every 2â€“4 weeks during heavy usage seasons.</li>
+        <li>Replace disposable filters every 2â€“3 months.</li>
       </ul>
-      <p>A clean filter improves airflow, maintains indoor air quality, and ensures your AC doesn’t work harder than necessary.</p>
+      <p>A clean filter improves airflow, maintains indoor air quality, and ensures your AC doesnâ€™t work harder than necessary.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">2. Schedule Professional Maintenance Twice a Year</h4>
       <p>While DIY care is important, professional servicing ensures deeper inspection and tuning. A certified technician will check refrigerant levels, inspect coils and condenser, clean internal components, test electrical connections, and calibrate the thermostat.</p>
       <p>Scheduling maintenance before summer and after peak season ensures your AC runs at maximum efficiency.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">3. Keep the Outdoor Unit Clean and Clear</h4>
-      <p>The outdoor condenser unit plays a major role in releasing heat. If it’s blocked by dust, leaves, or debris, cooling performance drops significantly.</p>
+      <p>The outdoor condenser unit plays a major role in releasing heat. If itâ€™s blocked by dust, leaves, or debris, cooling performance drops significantly.</p>
       <p>To maintain efficiency:</p>
       <ul class="list-disc pl-5 mb-4">
         <li>Remove leaves and dirt around the unit.</li>
@@ -49,12 +49,12 @@ export const blogsData = [
       <p>Refrigerant handling should always be done by licensed technicians, as improper handling can damage the system and harm the environment.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">6. Seal Windows and Doors Properly</h4>
-      <p>Even the most powerful AC can’t cool efficiently if cool air keeps escaping. Improve efficiency by sealing gaps in doors and windows, using weather stripping, installing insulated curtains, and closing unused rooms.</p>
-      <p>Better insulation means your AC doesn’t need to run continuously to maintain temperature.</p>
+      <p>Even the most powerful AC canâ€™t cool efficiently if cool air keeps escaping. Improve efficiency by sealing gaps in doors and windows, using weather stripping, installing insulated curtains, and closing unused rooms.</p>
+      <p>Better insulation means your AC doesnâ€™t need to run continuously to maintain temperature.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">7. Use a Programmable or Smart Thermostat</h4>
       <p>A smart thermostat helps regulate cooling based on usage patterns. Benefits include automatic temperature adjustment, energy savings during sleep or work hours, remote control via smartphone, and reduced wear and tear.</p>
-      <p>Setting your thermostat at 24–26°C (75–78°F) provides a balance between comfort and energy efficiency.</p>
+      <p>Setting your thermostat at 24â€“26Â°C (75â€“78Â°F) provides a balance between comfort and energy efficiency.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">8. Use Ceiling Fans Alongside AC</h4>
       <p>Ceiling fans improve air circulation and allow you to set the AC at a slightly higher temperature without sacrificing comfort. Good airflow distributes cool air evenly, reduces hot spots, and decreases compressor load.</p>
@@ -67,7 +67,7 @@ export const blogsData = [
       <p>Blocked vents restrict airflow and cause uneven cooling.</p>
       <p>Ensure:</p>
       <ul class="list-disc pl-5 mb-4">
-        <li>Furniture isn’t blocking vents</li>
+        <li>Furniture isnâ€™t blocking vents</li>
         <li>Dust buildup is removed regularly</li>
         <li>Air ducts are inspected yearly</li>
       </ul>
@@ -98,13 +98,13 @@ export const blogsData = [
       <p>Seasonal care helps maintain long-term performance.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">14. Upgrade Older Units When Necessary</h4>
-      <p>If your AC is over 10–12 years old and requires frequent repairs, upgrading may be more cost-effective. Modern inverter ACs consume less electricity, provide faster cooling, operate quietly, and offer smart features. Energy-efficient models may reduce cooling costs significantly.</p>
+      <p>If your AC is over 10â€“12 years old and requires frequent repairs, upgrading may be more cost-effective. Modern inverter ACs consume less electricity, provide faster cooling, operate quietly, and offer smart features. Energy-efficient models may reduce cooling costs significantly.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">15. Understand the Importance of Proper Sizing</h4>
-      <p>An oversized AC cools quickly but doesn’t remove humidity properly. An undersized unit runs continuously without effective cooling. Correct sizing ensures balanced humidity levels, stable temperatures, and reduced compressor strain. Always consult professionals before installation.</p>
+      <p>An oversized AC cools quickly but doesnâ€™t remove humidity properly. An undersized unit runs continuously without effective cooling. Correct sizing ensures balanced humidity levels, stable temperatures, and reduced compressor strain. Always consult professionals before installation.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">Final Thoughts</h4>
-      <p>Keeping your AC running efficiently all year long doesn’t require complicated steps — just consistent maintenance and smart usage habits.</p>
+      <p>Keeping your AC running efficiently all year long doesnâ€™t require complicated steps â€” just consistent maintenance and smart usage habits.</p>
       <p>By cleaning filters, scheduling professional servicing, improving insulation, and monitoring system performance, you can:</p>
       <ul class="list-disc pl-5 mb-4">
         <li>Reduce energy bills</li>
@@ -113,7 +113,7 @@ export const blogsData = [
         <li>Maintain consistent comfort</li>
         <li>Improve indoor air quality</li>
       </ul>
-      <p>A well-maintained air conditioner can last 12–15 years or more while operating at peak performance. Regular care today prevents expensive repairs tomorrow. So take proactive steps and ensure your AC keeps you cool efficiently — season after season.</p>
+      <p>A well-maintained air conditioner can last 12â€“15 years or more while operating at peak performance. Regular care today prevents expensive repairs tomorrow. So take proactive steps and ensure your AC keeps you cool efficiently â€” season after season.</p>
     `,
     image: '/blog/aclong.jpg'
   },
@@ -121,24 +121,24 @@ export const blogsData = [
     id: 2,
     title: 'Why Regular AC Maintenance Saves You Money in the Long Run',
     date: 'Feb 24, 2026',
-    author: 'My Appliancerescue Team',
+    author: 'Dear Appliance Team',
     shortDesc: 'Regular maintenance is the key to keeping your AC efficient, reliable, and cost-effective. Skipping it leads to expensive repairs.',
     longDesc: `
       <p>Air conditioning systems are one of the biggest contributors to household energy consumption, especially in regions where summers are long and intense. While many homeowners only think about their AC when it stops working, regular maintenance is the key to keeping costs low and performance high.</p>
       
       <p>At first glance, servicing your air conditioner may seem like an added expense. However, routine maintenance actually saves significant money over time by reducing energy bills, preventing costly breakdowns, extending equipment lifespan, and maintaining warranty coverage.</p>
       
-      <p>Let’s explore how regular AC maintenance protects your investment and keeps your cooling costs under control.</p>
+      <p>Letâ€™s explore how regular AC maintenance protects your investment and keeps your cooling costs under control.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">1. Lower Energy Bills Through Improved Efficiency</h4>
       <p>A well-maintained AC runs more efficiently than a neglected one. Over time, dust and dirt accumulate on air filters, evaporator coils, condenser coils, and blower components. This buildup forces your system to work harder to cool your home. When airflow is restricted or heat transfer is reduced, the compressor runs longer cycles, consuming more electricity.</p>
-      <p>Regular maintenance ensures clean filters for better airflow, clean coils for efficient heat exchange, proper refrigerant levels, and calibrated thermostat performance. Even a small drop in efficiency can increase energy consumption by 5–15%.</p>
+      <p>Regular maintenance ensures clean filters for better airflow, clean coils for efficient heat exchange, proper refrigerant levels, and calibrated thermostat performance. Even a small drop in efficiency can increase energy consumption by 5â€“15%.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">2. Prevents Expensive Emergency Repairs</h4>
-      <p>Most major AC failures don’t happen suddenly — they develop over time due to small, unnoticed issues. For example, a minor refrigerant leak can damage the compressor, loose electrical connections can burn out components, or clogged drain lines can cause water damage. Routine inspections allow technicians to identify and fix small problems before they turn into expensive repairs.</p>
+      <p>Most major AC failures donâ€™t happen suddenly â€” they develop over time due to small, unnoticed issues. For example, a minor refrigerant leak can damage the compressor, loose electrical connections can burn out components, or clogged drain lines can cause water damage. Routine inspections allow technicians to identify and fix small problems before they turn into expensive repairs.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">3. Extends the Lifespan of Your AC Unit</h4>
-      <p>An air conditioner is a major investment. On average, a well-maintained AC system can last 12–15 years or even longer. However, neglected systems often fail 4–6 years earlier. Regular servicing reduces mechanical stress, ensuring each component functions smoothly. Extending your system’s lifespan by even 3–5 years can save thousands of dollars in replacement costs.</p>
+      <p>An air conditioner is a major investment. On average, a well-maintained AC system can last 12â€“15 years or even longer. However, neglected systems often fail 4â€“6 years earlier. Regular servicing reduces mechanical stress, ensuring each component functions smoothly. Extending your systemâ€™s lifespan by even 3â€“5 years can save thousands of dollars in replacement costs.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">4. Protects Your Manufacturer Warranty</h4>
       <p>Many AC manufacturers require proof of annual maintenance to keep the warranty valid. If your system fails and you cannot provide service records, the manufacturer may refuse warranty claims. Routine maintenance protects parts warranty, compressor warranty, and labor coverage, ensuring you're financially protected.</p>
@@ -150,31 +150,31 @@ export const blogsData = [
       <p>Most AC failures occur during peak summer months when systems are working hardest. Scheduling maintenance before summer ensures your system is ready for heavy usage, reducing the chances of mid-season breakdowns when repair services are busiest and most expensive.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">7. Improves Indoor Air Quality</h4>
-      <p>A neglected AC doesn’t just waste energy — it can also affect your health. Dirty filters and coils can circulate dust, allergens, mold spores, and bacteria. Routine maintenance keeps internal components clean, improving air quality and reducing potential medical expenses.</p>
+      <p>A neglected AC doesnâ€™t just waste energy â€” it can also affect your health. Dirty filters and coils can circulate dust, allergens, mold spores, and bacteria. Routine maintenance keeps internal components clean, improving air quality and reducing potential medical expenses.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">8. Prevents Water Damage and Mold Growth</h4>
       <p>AC systems remove humidity from indoor air. If the condensate drain line becomes clogged, water can back up and leak into walls, ceilings, or floors. Regular inspection and cleaning of drain lines prevent costly secondary damage to your home.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">9. Ensures Proper Refrigerant Levels</h4>
-      <p>Low refrigerant doesn’t just reduce cooling — it forces the compressor to overwork. Compressor replacement is one of the most expensive AC repairs. Checking refrigerant levels during routine maintenance protects this critical component.</p>
+      <p>Low refrigerant doesnâ€™t just reduce cooling â€” it forces the compressor to overwork. Compressor replacement is one of the most expensive AC repairs. Checking refrigerant levels during routine maintenance protects this critical component.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">10. Enhances Energy Efficiency Ratings</h4>
       <p>Maintenance helps your AC maintain its original efficiency rating (SEER), ensuring optimal performance and lower operational costs. Neglect gradually lowers system efficiency, increasing long-term operating expenses.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">11. Helps You Plan for Future Replacement</h4>
-      <p>During routine inspections, technicians can evaluate your system’s overall condition, allowing you to budget for replacement in advance and avoid sudden financial strain.</p>
+      <p>During routine inspections, technicians can evaluate your systemâ€™s overall condition, allowing you to budget for replacement in advance and avoid sudden financial strain.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">12. Reduces Carbon Footprint</h4>
       <p>An inefficient AC consumes more electricity and wastes energy resources. Regular maintenance reduces power consumption, lowering your environmental impact.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">13. Provides Peace of Mind</h4>
-      <p>Knowing your system is inspected and optimized regularly provides reassurance. You won’t have to worry about unexpected breakdowns or rising electricity bills.</p>
+      <p>Knowing your system is inspected and optimized regularly provides reassurance. You wonâ€™t have to worry about unexpected breakdowns or rising electricity bills.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">How Often Should AC Maintenance Be Done?</h4>
-      <p>For best results, schedule professional servicing at least once a year, ideally twice (before summer and after heavy use). Additionally, clean or replace filters every 1–3 months.</p>
+      <p>For best results, schedule professional servicing at least once a year, ideally twice (before summer and after heavy use). Additionally, clean or replace filters every 1â€“3 months.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">Final Thoughts</h4>
-      <p>Regular AC maintenance isn’t an expense — it’s a smart financial strategy. By investing in routine servicing, you can lower electricity bills, avoid costly repairs, and extend your AC’s lifespan. Preventive care always costs less than reactive repairs.</p>
+      <p>Regular AC maintenance isnâ€™t an expense â€” itâ€™s a smart financial strategy. By investing in routine servicing, you can lower electricity bills, avoid costly repairs, and extend your ACâ€™s lifespan. Preventive care always costs less than reactive repairs.</p>
     `,
     image: '/blog/ac.jpg'
   },
@@ -182,19 +182,19 @@ export const blogsData = [
     id: 3,
     title: 'The Ultimate Guide to Choosing the Right Air Conditioner',
     date: 'Feb 24, 2026',
-    author: 'My Appliancerescue Team',
+    author: 'Dear Appliance Team',
     shortDesc: 'Choosing the right AC impacts your comfort and energy bills. This guide covers size, type, and efficiency.',
     longDesc: `
       <p>Choosing the right air conditioner is one of the most important decisions for your home or office comfort. With rising temperatures and increasing energy costs, selecting the correct AC unit can save you money, improve indoor air quality, and provide consistent cooling for years to come.</p>
       
-      <p>In this ultimate guide, we’ll break down everything you need to know before purchasing an air conditioner so you can make a smart and cost-effective decision.</p>
+      <p>In this ultimate guide, weâ€™ll break down everything you need to know before purchasing an air conditioner so you can make a smart and cost-effective decision.</p>
 
       <h4 class="text-xl font-bold mt-6 mb-2">1. Understand Your Cooling Requirements</h4>
       <p>Before exploring models, determine your actual cooling needs based on room size, usage, and sunlight exposure. Cooling capacity is measured in BTUs or Tons.</p>
       <ul class="list-disc pl-5 mb-4">
-        <li>Up to 120 sq ft → 1 Ton AC</li>
-        <li>120–200 sq ft → 1.5 Ton AC</li>
-        <li>200–300 sq ft → 2 Ton AC</li>
+        <li>Up to 120 sq ft â†’ 1 Ton AC</li>
+        <li>120â€“200 sq ft â†’ 1.5 Ton AC</li>
+        <li>200â€“300 sq ft â†’ 2 Ton AC</li>
       </ul>
 
       <h4 class="text-xl font-bold mt-6 mb-2">2. Types of Air Conditioners</h4>
@@ -252,3 +252,4 @@ export const blogsData = [
     image: '/blog/acc thiorid.webp'
   }
 ];
+

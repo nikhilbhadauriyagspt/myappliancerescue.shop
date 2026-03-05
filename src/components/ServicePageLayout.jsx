@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowLeft, FiPlus, FiCheck, FiArrowRight, FiArrowUpRight } from 'react-icons/fi';
@@ -27,7 +27,7 @@ const ServicePageLayout = ({
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>{metaTitle || `${title} Repair | My Appliancerescue`}</title>
+        <title>{metaTitle || `${title} Repair | Dear Appliance`}</title>
         <meta name="description" content={metaDesc} />
       </Helmet>
 
@@ -189,3 +189,4 @@ const ServicePageLayout = ({
 };
 
 export default ServicePageLayout;
+

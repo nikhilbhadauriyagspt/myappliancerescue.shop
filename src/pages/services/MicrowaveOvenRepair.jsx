@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiLightningFill, PiWaveformFill, PiClockFill, PiShieldCheckFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const MicrowaveOvenRepair = () => {
     <ServicePageLayout
       title="Microwave Oven"
       titleAccent="Techs."
-      metaTitle="Professional Microwave Repair Service | Fast & Safe | My Appliancerescue"
+      metaTitle="Professional Microwave Repair Service | Fast & Safe | Dear Appliance"
       metaDesc="Expert microwave repair for all premium brands. We fix heating issues, magnetrons, and control panels with a safety-first approach."
       heroDesc="Quick meals, zero hassle. Our certified experts provide rapid and safe repair for all types of microwave and convection ovens."
       image="/service-8.jpg"
@@ -49,3 +49,4 @@ const MicrowaveOvenRepair = () => {
 };
 
 export default MicrowaveOvenRepair;
+

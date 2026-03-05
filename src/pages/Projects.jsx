@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { projectsData } from '../data/projects';
@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Our Projects | Success Stories | My Appliancerescue</title>
+        <title>Our Projects | Success Stories | Dear Appliance</title>
         <meta name="description" content="Explore our portfolio of successful appliance repair projects. See how we've helped homeowners fix their essential machines." />
       </Helmet>
 
@@ -84,3 +84,4 @@ const Projects = () => {
 };
 
 export default Projects;
+

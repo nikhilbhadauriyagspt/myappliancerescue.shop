@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiDropFill, PiGearFill, PiWavesFill, PiShieldCheckFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const WaterPurifierRepair = () => {
     <ServicePageLayout
       title="Water Purifier"
       titleAccent="Specialists."
-      metaTitle="RO & Water Purifier Repair | Pure Drinking Water | My Appliancerescue"
+      metaTitle="RO & Water Purifier Repair | Pure Drinking Water | Dear Appliance"
       metaDesc="Professional RO and UV water purifier repair. We handle filter changes, membrane checks, and TDS adjustments with genuine parts."
       heroDesc="Health starts with water. We provide elite maintenance and rapid repair for all high-end RO and UV purification systems."
       image="/service-10.jpg"
@@ -49,3 +49,4 @@ const WaterPurifierRepair = () => {
 };
 
 export default WaterPurifierRepair;
+

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+﻿import React, { useEffect, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   FiMenu,
@@ -93,8 +93,8 @@ const Header = () => {
                     Mail Us For Support:
                   </div>
                   <div className="text-[12px] text-slate-700 font-semibold">
-                    <a href="mailto:info@myappliancerescue.shop" className="hover:text-orange-500 transition">
-                      info@myappliancerescue.shop
+                    <a href="mailto:info@dearappliance.com" className="hover:text-orange-500 transition">
+                      info@dearappliance.com
                     </a>
                   </div>
                 </div>
@@ -156,7 +156,7 @@ const Header = () => {
                                 <span className="text-[13px] font-semibold text-slate-800">
                                   {s.title}
                                 </span>
-                                <span className="text-[12px] text-slate-400">→</span>
+                                <span className="text-[12px] text-slate-400">â†’</span>
                               </Link>
                             ))}
                           </div>
@@ -358,8 +358,8 @@ const Header = () => {
               <FiMail className="mt-0.5 text-orange-500" />
               <div>
                 <div className="font-extrabold">Mail Us</div>
-                <a href="mailto:info@myappliancerescue.shop" className="text-slate-600 hover:text-orange-500 transition">
-                  info@myappliancerescue.shop
+                <a href="mailto:info@dearappliance.com" className="text-slate-600 hover:text-orange-500 transition">
+                  info@dearappliance.com
                 </a>
               </div>
             </div>

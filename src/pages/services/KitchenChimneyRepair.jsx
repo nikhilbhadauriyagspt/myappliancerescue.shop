@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiFanFill, PiGearFill, PiDropFill, PiLightningFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const KitchenChimneyRepair = () => {
     <ServicePageLayout
       title="Kitchen Chimney"
       titleAccent="Experts."
-      metaTitle="Premium Kitchen Chimney Repair & Cleaning | My Appliancerescue"
+      metaTitle="Premium Kitchen Chimney Repair & Cleaning | Dear Appliance"
       metaDesc="Professional repair and industrial cleaning for kitchen exhaust systems. We fix motors, touch panels, and restore full suction."
       heroDesc="Breathe fresh air. Our specialists provide deep cleaning and precision repair for all high-end chimney and exhaust systems."
       image="/service-12.jpg"
@@ -49,3 +49,4 @@ const KitchenChimneyRepair = () => {
 };
 
 export default KitchenChimneyRepair;
+

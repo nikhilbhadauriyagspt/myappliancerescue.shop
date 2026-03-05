@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FiArrowLeft, FiShield } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
@@ -11,9 +11,9 @@ export default function PrivacyPolicy() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Privacy Policy | My Appliancerescue - Your Data Protection</title>
-        <meta name="description" content="Detailed Privacy Policy for My Appliancerescue. Understand how we collect, use, and protect your data." />
-        <link rel="canonical" href="https://myappliancerescue.shop/privacy-policy" />
+        <title>Privacy Policy | Dear Appliance - Your Data Protection</title>
+        <meta name="description" content="Detailed Privacy Policy for Dear Appliance. Understand how we collect, use, and protect your data." />
+        <link rel="canonical" href="https://dearappliance.com/privacy-policy" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -46,15 +46,15 @@ export default function PrivacyPolicy() {
 
               <section>
                 <p>
-                  This Privacy Notice for My Appliancerescue ("<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>"), describes how and why we might access, collect, store, use, and/or share ("<strong>process</strong>") your personal information when you use our services ("<strong>Services</strong>"), including when you:
+                  This Privacy Notice for Dear Appliance ("<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>"), describes how and why we might access, collect, store, use, and/or share ("<strong>process</strong>") your personal information when you use our services ("<strong>Services</strong>"), including when you:
                 </p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li>Visit our website at <a href="https://myappliancerescue.shop/">https://myappliancerescue.shop/</a> or any website of ours that links to this Privacy Notice</li>
-                  <li>Use My Appliancerescue. At My Appliancerescue, we focus on precision accuracy and timely service. Our business is built on providing diagnostic clarity and performing repairs that aim to extend the lifecycle of your household appliances. We serve residential clients with a commitment to maintaining standard operating procedures.</li>
+                  <li>Visit our website at <a href="https://dearappliance.com/">https://dearappliance.com/</a> or any website of ours that links to this Privacy Notice</li>
+                  <li>Use Dear Appliance. At Dear Appliance, we focus on precision accuracy and timely service. Our business is built on providing diagnostic clarity and performing repairs that aim to extend the lifecycle of your household appliances. We serve residential clients with a commitment to maintaining standard operating procedures.</li>
                   <li>Engage with us in other related ways, including any marketing or events</li>
                 </ul>
                 <p>
-                  <strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:info@myappliancerescue.shop">info@myappliancerescue.shop</a>.
+                  <strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:info@dearappliance.com">info@dearappliance.com</a>.
                 </p>
               </section>
 
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
                   <p>All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.</p>
 
                   <p className="font-bold text-slate-900 italic mt-8">Information automatically collected</p>
-                  <p><strong>In Short:</strong> Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services.</p>
+                  <p><strong>In Short:</strong> Some information â€” such as your Internet Protocol (IP) address and/or browser and device characteristics â€” is collected automatically when you visit our Services.</p>
                   <p>We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other usage information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes.</p>
                   <p>The information we collect includes:</p>
                   <ul className="list-disc pl-6 space-y-2">
@@ -223,7 +223,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">8. DO WE COLLECT INFORMATION FROM MINORS?</h2>
                 <div className="space-y-4">
                   <p><strong>In Short:</strong> We do not knowingly collect data from or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction.</p>
-                  <p>We do not knowingly collect, solicit data from, or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or the equivalent age as specified by law in your jurisdiction or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age or the equivalent age as specified by law in your jurisdiction has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18 or the equivalent age as specified by law in your jurisdiction, please contact us at info@myappliancerescue.shop.</p>
+                  <p>We do not knowingly collect, solicit data from, or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or the equivalent age as specified by law in your jurisdiction or that you are the parent or guardian of such a minor and consent to such minor dependentâ€™s use of the Services. If we learn that personal information from users less than 18 years of age or the equivalent age as specified by law in your jurisdiction has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18 or the equivalent age as specified by law in your jurisdiction, please contact us at info@dearappliance.com.</p>
                 </div>
               </section>
 
@@ -235,7 +235,7 @@ export default function PrivacyPolicy() {
                   <p>We will consider and act upon any request in accordance with applicable data protection laws.</p>
                   <p><strong>Withdrawing your consent:</strong> If we are relying on your consent to process your personal information, which may be express and/or implied consent depending on the applicable law, you have the right to withdraw your consent at any time. You can withdraw your consent at any time by contacting us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.</p>
                   <p>However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.</p>
-                  <p>If you have questions or comments about your privacy rights, you may email us at info@myappliancerescue.shop.</p>
+                  <p>If you have questions or comments about your privacy rights, you may email us at info@dearappliance.com.</p>
                 </div>
               </section>
 
@@ -316,7 +316,7 @@ export default function PrivacyPolicy() {
                         </tr>
                         <tr>
                           <td className="border border-slate-200 px-4 py-2 font-bold text-slate-900">K. Inferences drawn from collected personal information</td>
-                          <td className="border border-slate-200 px-4 py-2">Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individual’s preferences and characteristics</td>
+                          <td className="border border-slate-200 px-4 py-2">Inferences drawn from any of the collected personal information listed above to create a profile or summary about, for example, an individualâ€™s preferences and characteristics</td>
                           <td className="border border-slate-200 px-4 py-2 text-center font-bold">NO</td>
                         </tr>
                         <tr>
@@ -355,7 +355,7 @@ export default function PrivacyPolicy() {
                     <li>Right to request the deletion of your personal data</li>
                     <li>Right to obtain a copy of the personal data you previously shared with us</li>
                     <li>Right to non-discrimination for exercising your rights</li>
-                    <li>Right to opt out of the processing of your personal data if it is used for targeted advertising (or sharing as defined under California’s privacy law), the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")</li>
+                    <li>Right to opt out of the processing of your personal data if it is used for targeted advertising (or sharing as defined under Californiaâ€™s privacy law), the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ("profiling")</li>
                   </ul>
 
                   <p>Depending upon the state where you live, you may also have the following rights:</p>
@@ -370,7 +370,7 @@ export default function PrivacyPolicy() {
                   </ul>
 
                   <p><strong>How to Exercise Your Rights</strong></p>
-                  <p>To exercise these rights, you can contact us by submitting a data subject access request, by emailing us at info@myappliancerescue.shop, or by referring to the contact details at the bottom of this document.</p>
+                  <p>To exercise these rights, you can contact us by submitting a data subject access request, by emailing us at info@dearappliance.com, or by referring to the contact details at the bottom of this document.</p>
                   <p>Under certain US state data protection laws, you can designate an authorized agent to make a request on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with applicable laws.</p>
 
                   <p><strong>Request Verification</strong></p>
@@ -378,7 +378,7 @@ export default function PrivacyPolicy() {
                   <p>If you submit the request through an authorized agent, we may need to collect additional information to verify your identity before processing your request and the agent will need to provide a written and signed permission from you to submit such request on your behalf.</p>
 
                   <p><strong>Appeals</strong></p>
-                  <p>Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at info@myappliancerescue.shop. We will inform you in writing of any action taken or not taken in response to the appeal, including a revised explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.</p>
+                  <p>Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at info@dearappliance.com. We will inform you in writing of any action taken or not taken in response to the appeal, including a revised explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.</p>
 
                   <p><strong>California "Shine The Light" Law</strong></p>
                   <p>California Civil Code Section 1798.83, also known as the "Shine The Light" law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us by using the contact details provided in the section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"</p>
@@ -396,7 +396,7 @@ export default function PrivacyPolicy() {
               <section id="contact" className="pt-8">
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
                 <div className="space-y-4">
-                  <p>If you have questions or comments about this notice, you may email us at info@myappliancerescue.shop or contact us by post at:</p>
+                  <p>If you have questions or comments about this notice, you may email us at info@dearappliance.com or contact us by post at:</p>
                   <div className="bg-slate-900 text-white p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative overflow-hidden mt-8">
                     <div className="absolute top-0 right-0 w-32 h-32 bg-amber-400/10 blur-3xl"></div>
                     <h3 className="text-2xl font-bold mb-6 relative z-10 m-0">Contact Details</h3>
@@ -407,7 +407,7 @@ export default function PrivacyPolicy() {
                         </div>
                         <div>
                           <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0">Company</p>
-                          <p className="font-bold text-lg m-0 text-white">My Appliancerescue</p>
+                          <p className="font-bold text-lg m-0 text-white">Dear Appliance</p>
                         </div>
                       </div>
                       <div className="flex items-center gap-4 text-slate-300">
@@ -416,7 +416,7 @@ export default function PrivacyPolicy() {
                         </div>
                         <div>
                           <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0">Email</p>
-                          <p className="font-bold text-lg m-0 text-white">info@myappliancerescue.shop</p>
+                          <p className="font-bold text-lg m-0 text-white">info@dearappliance.com</p>
                         </div>
                       </div>
                       <div className="flex items-start gap-4 text-slate-300">
@@ -447,3 +447,4 @@ export default function PrivacyPolicy() {
     </div>
   );
 }
+

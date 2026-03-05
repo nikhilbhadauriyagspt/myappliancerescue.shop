@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { PiWindFill, PiGearFill, PiThermometerFill, PiDropFill } from 'react-icons/pi';
 import ServicePageLayout from '../../components/ServicePageLayout';
 
@@ -30,7 +30,7 @@ const AirConditionerRepair = () => {
     <ServicePageLayout
       title="Air Conditioner"
       titleAccent="Experts."
-      metaTitle="Premium AC Repair & Service | Same Day Support | My Appliancerescue"
+      metaTitle="Premium AC Repair & Service | Same Day Support | Dear Appliance"
       metaDesc="Professional AC repair and maintenance for all major brands. We handle gas refilling, PCB diagnostics, and deep antibacterial cleaning."
       heroDesc="Stay cool without the stress. Our dedicated team provides expert repair, precision maintenance, and factory-standard gas filling at your doorstep."
       image="/service-7.jpg"
@@ -49,3 +49,4 @@ const AirConditionerRepair = () => {
 };
 
 export default AirConditionerRepair;
+

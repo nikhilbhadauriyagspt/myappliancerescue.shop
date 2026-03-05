@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { FiSend, FiMail, FiMapPin, FiClock, FiCheckCircle } from 'react-icons/fi';
 import { API_ENDPOINTS } from '../config/api';
@@ -42,9 +42,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Contact Us | My Appliancerescue - Fast & Professional Support</title>
+        <title>Contact Us | Dear Appliance - Fast & Professional Support</title>
         <meta name="description" content="Have a broken appliance? Get in touch with our team today. We provide quick and professional support for all your home repair needs." />
-        <link rel="canonical" href="https://myappliancerescue.shop/contact" />
+        <link rel="canonical" href="https://dearappliance.com/contact" />
       </Helmet>
 
       {/* Hero Section - Modern Dark Premium */}
@@ -98,7 +98,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-slate-400 text-[11px] font-black uppercase tracking-[0.2em] mb-1">Email Support</p>
-                    <a href="mailto:info@myappliancerescue.shop" className="text-slate-950 font-black text-xl hover:text-orange-500 transition-colors">info@myappliancerescue.shop</a>
+                    <a href="mailto:info@dearappliance.com" className="text-slate-950 font-black text-xl hover:text-orange-500 transition-colors">info@dearappliance.com</a>
                   </div>
                 </div>
 
@@ -188,3 +188,4 @@ const InputField = ({ label, name, type = "text", placeholder, ...props }) => (
 );
 
 export default Contact;
+

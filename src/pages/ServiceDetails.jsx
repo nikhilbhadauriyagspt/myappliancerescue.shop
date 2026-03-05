@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { servicesData } from '../data/services';
@@ -19,7 +19,7 @@ const ServiceDetails = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50 font-sans">
         <Helmet>
-          <title>Service Not Found - My Appliancerescue</title>
+          <title>Service Not Found - Dear Appliance</title>
         </Helmet>
         <div className="text-center px-6">
           <h2 className="text-8xl font-black text-slate-950 mb-6 tracking-tighter">404</h2>
@@ -35,9 +35,9 @@ const ServiceDetails = () => {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>{service.title} | My Appliancerescue - Professional Repair</title>
+        <title>{service.title} | Dear Appliance - Professional Repair</title>
         <meta name="description" content={service.shortDesc} />
-        <link rel="canonical" href={`https://myappliancerescue.shop/service/${service.slug}`} />
+        <link rel="canonical" href={`https://dearappliance.com/service/${service.slug}`} />
       </Helmet>
 
       {/* Hero Section - Modern Dark Premium */}
@@ -182,3 +182,4 @@ const ServiceDetails = () => {
 };
 
 export default ServiceDetails;
+

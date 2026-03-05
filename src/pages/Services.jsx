@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import { servicesData } from '../data/services';
@@ -16,9 +16,9 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Our Services | My Appliancerescue - Expert Repair Services</title>
+        <title>Our Services | Dear Appliance - Expert Repair Services</title>
         <meta name="description" content="View our full range of professional appliance repair services. We fix washing machines, fridges, ACs and more with honesty." />
-        <link rel="canonical" href="https://myappliancerescue.shop/services" />
+        <link rel="canonical" href="https://dearappliance.com/services" />
       </Helmet>
 
       {/* Hero Section - Modern Dark Premium */}
@@ -145,3 +145,4 @@ const Services = () => {
 };
 
 export default Services;
+

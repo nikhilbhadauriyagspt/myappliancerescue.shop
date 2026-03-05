@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useBooking } from '../../context/BookingContext';
 import { FiX, FiCheck, FiTool, FiMail, FiUser, FiPhone, FiMapPin, FiChevronRight } from 'react-icons/fi';
 import { servicesData } from '../../data/services';
@@ -80,7 +80,7 @@ const BookingModal = () => {
               <FiCheck size={48} />
             </div>
             <h3 className="text-4xl font-black text-slate-950 mb-4 tracking-tight">Booking Request Sent!</h3>
-            <p className="text-slate-500 text-lg font-medium max-w-md mx-auto">Thank you for choosing <span className="text-orange-500 font-bold">My Appliancerescue</span>. Our team will contact you within 15-30 minutes to confirm your schedule.</p>
+            <p className="text-slate-500 text-lg font-medium max-w-md mx-auto">Thank you for choosing <span className="text-orange-500 font-bold">Dear Appliance</span>. Our team will contact you within 15-30 minutes to confirm your schedule.</p>
           </div>
         ) : (
           <>
@@ -205,7 +205,7 @@ const BookingModal = () => {
                     <FiChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
                   </button>
                   <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-6">
-                    Professional Standards • Guaranteed Results
+                    Professional Standards â€¢ Guaranteed Results
                   </p>
                 </div>
               </form>
@@ -230,3 +230,4 @@ const ModalField = ({ icon, ...props }) => (
 );
 
 export default BookingModal;
+

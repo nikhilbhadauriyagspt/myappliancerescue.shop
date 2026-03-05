@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { servicesData } from '../data/services.js';
 import { FiChevronDown, FiChevronUp, FiArrowRight, FiMail, FiMapPin, FiClock } from 'react-icons/fi';
@@ -38,7 +38,7 @@ const Footer = () => {
             <Link to="/" className="inline-block group">
               <img
                 src="/logo/logo.png"
-                alt="My Appliancerescue"
+                alt="Dear Appliance"
                 className="h-12 md:h-14 lg:h-16 object-contain brightness-0 invert"
               />
             </Link>
@@ -102,7 +102,7 @@ const Footer = () => {
             </div>
             <div>
               <p className="text-slate-500 text-[10px] font-black uppercase tracking-widest mb-1">Email Us</p>
-              <a href="mailto:info@myappliancerescue.shop" className="text-white font-black text-lg">info@myappliancerescue.shop</a>
+              <a href="mailto:info@dearappliance.com" className="text-white font-black text-lg">info@dearappliance.com</a>
             </div>
           </div>
 
@@ -130,7 +130,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
           <p className="text-slate-500 text-sm font-bold tracking-wide">
-            © {new Date().getFullYear()} <span className="text-white">My Appliancerescue</span>. All rights reserved.
+            Â© {new Date().getFullYear()} <span className="text-white">Dear Appliance</span>. All rights reserved.
           </p>
           <div className="flex items-center gap-2 text-slate-500 text-sm font-bold">
             <PiWrenchLight className="text-orange-500" size={20} />
@@ -143,3 +143,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
