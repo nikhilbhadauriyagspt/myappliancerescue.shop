@@ -14,28 +14,28 @@ const About = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="overflow-hidden rounded-[32px] border border-slate-100">
                 <img
-                  src="/public/service-1.jpg"
+                  src="/service-1.jpg"
                   className="w-full h-full object-cover aspect-square transform hover:scale-105 transition-transform duration-1000"
                   alt="Repair Service 1"
                 />
               </div>
               <div className="overflow-hidden rounded-[32px] border border-slate-100 mt-8">
                 <img
-                  src="/public/service-2.jpg"
+                  src="/service-2.jpg"
                   className="w-full h-full object-cover aspect-square transform hover:scale-105 transition-transform duration-1000"
                   alt="Repair Service 2"
                 />
               </div>
               <div className="overflow-hidden rounded-[32px] border border-slate-100 -mt-8">
                 <img
-                  src="/public/service-7.jpg"
+                  src="/service-7.jpg"
                   className="w-full h-full object-cover aspect-square transform hover:scale-105 transition-transform duration-1000"
                   alt="Repair Service 3"
                 />
               </div>
               <div className="overflow-hidden rounded-[32px] border border-slate-100">
                 <img
-                  src="/public/service-8.jpg"
+                  src="/service-8.jpg"
                   className="w-full h-full object-cover aspect-square transform hover:scale-105 transition-transform duration-1000"
                   alt="Repair Service 4"
                 />
