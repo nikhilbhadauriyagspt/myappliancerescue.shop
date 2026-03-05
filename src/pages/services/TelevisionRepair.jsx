@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const TelevisionRepair = () => {
   const features = [
     {
-      title: "Display Fix",
-      desc: "Expert repair for backlight failure, screen flickering, and display errors.",
+      title: "4K Display Fix",
+      desc: "Expert repair for LED backlight failure, screen flickering, and complex panel errors.",
       icon: <PiTelevisionFill />
     },
     {
-      title: "Power Supply",
-      desc: "Resolving power-on issues and motherboard electrical malfunctions.",
+      title: "Motherboard Service",
+      desc: "Resolving power-on failures and motherboard-level electrical malfunctions with precision.",
       icon: <PiLightningFill />
     },
     {
-      title: "Audio Repair",
-      desc: "Fixing distorted sound, speaker issues, and audio output failures.",
+      title: "Acoustic Repair",
+      desc: "Professional fix for distorted sound, internal speaker failure, and audio output issues.",
       icon: <PiSpeakerHighFill />
     },
     {
-      title: "Connectivity",
-      desc: "Repairing HDMI, USB ports, and Wi-Fi connectivity problems for Smart TVs.",
+      title: "Smart Connectivity",
+      desc: "Solving Wi-Fi signal drops, HDMI port failures, and OS software glitches for all Smart TVs.",
       icon: <PiGearFill />
     }
   ];
@@ -29,21 +29,21 @@ const TelevisionRepair = () => {
   return (
     <ServicePageLayout
       title="Television"
-      titleAccent="Repair."
-      metaTitle="Smart TV & LED Repair | Professional Service | Fix Appliancepro"
-      metaDesc="Professional repair for LED, LCD, and Smart TVs. We fix display issues, power supply, and audio problems for all brands."
-      heroDesc="Restore your home entertainment. We provide expert diagnostics and repair for all major TV brands, ensuring a crystal-clear experience."
+      titleAccent="Specialists."
+      metaTitle="Premium Smart TV & LED Repair | Expert Service | My Appliancerescue"
+      metaDesc="Professional repair for 4K LED, LCD, and Smart TVs. We fix display issues, power supplies, and audio problems for all major brands."
+      heroDesc="Your entertainment, restored. We provide high-precision diagnostics and board-level repair for all major TV brands."
       image="/service-4.jpg"
-      mainDesc="Our specialists handle common television issues including backlight failure, power supply problems, and connectivity errors. We use precision tools and quality components to bring your TV back to life."
+      mainDesc="Modern TVs require delicate handling and electronic expertise. From backlight replacements to complex chip-level repairs, we focus on restoring crystal-clear picture and sound quality. Our team follows strict anti-static protocols during every on-site repair."
       highlights={[
-        "Certified Smart TV experts",
-        "Prompt on-site diagnostics",
-        "Quality component replacement",
-        "Service for all major brands"
+        "Certified Smart TV Techs",
+        "On-Site Board Repair",
+        "Premium Panel Parts",
+        "Service For All Brands"
       ]}
       features={features}
       ctaHeading="TV Screen Issues?"
-      ctaSubheading="Let Us Fix It Now."
+      ctaSubheading="Restore Your View Today."
     />
   );
 };

@@ -11,9 +11,9 @@ export default function CookiePolicy() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Cookie Policy | Fix Appliancepro - Data Usage Standards</title>
-        <meta name="description" content="Understand how Fix Appliancepro uses cookies to improve your experience on our repair service website and maintain technical performance." />
-        <link rel="canonical" href="https://fixappliancepro.shop/cookie-policy" />
+        <title>Cookie Policy | My Appliancerescue - Data Usage Standards</title>
+        <meta name="description" content="Understand how My Appliancerescue uses cookies to improve your experience on our repair service website and maintain technical performance." />
+        <link rel="canonical" href="https://myappliancerescue.shop/cookie-policy" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -33,7 +33,7 @@ export default function CookiePolicy() {
             Cookie <span className="text-amber-500 underline decoration-slate-200 underline-offset-8 italic">Policy.</span>
           </h1>
           <p className="text-slate-500 text-lg font-medium max-w-3xl mx-auto leading-relaxed">
-            Last updated February 06, 2026. This Cookie Policy explains how Fix Appliancepro uses cookies and similar tracking technologies.
+            Last updated February 06, 2026. This Cookie Policy explains how My Appliancerescue uses cookies and similar tracking technologies.
           </p>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default function CookiePolicy() {
 
               <section className="bg-slate-50 p-8 md:p-12 rounded-[2.5rem] border border-slate-100 shadow-sm text-slate-600">
                 <p>
-                  This Cookie Policy explains how Fix Appliancepro (“Company,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you visit our website <a href="https://fixappliancepro.shop/">https://fixappliancepro.shop/</a> (the “Website”). This policy should be read together with our <Link to="/privacy-policy">PRIVACY POLICY</Link> and <Link to="/terms-of-service">TERMS OF SERVICE</Link>.
+                  This Cookie Policy explains how My Appliancerescue (“Company,” “we,” “us,” or “our”) uses cookies and similar tracking technologies when you visit our website <a href="https://myappliancerescue.shop/">https://myappliancerescue.shop/</a> (the “Website”). This policy should be read together with our <Link to="/privacy-policy">PRIVACY POLICY</Link> and <Link to="/terms-of-service">TERMS OF SERVICE</Link>.
                 </p>
               </section>
 
@@ -58,7 +58,7 @@ export default function CookiePolicy() {
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">2. How We Use Cookies</h2>
-                <p>Fix Appliancepro uses cookies and similar technologies to:</p>
+                <p>My Appliancerescue uses cookies and similar technologies to:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Ensure the Website functions properly</li>
                   <li>Maintain security and prevent fraudulent activity</li>
@@ -126,7 +126,7 @@ export default function CookiePolicy() {
 
               <section>
                 <h2 className="text-3xl font-bold text-slate-900 mb-6 uppercase tracking-wider">6. Do Not Track Signals</h2>
-                <p>Some browsers offer a “Do Not Track” (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and Fix Appliancepro does not currently respond to such signals <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
+                <p>Some browsers offer a “Do Not Track” (DNT) feature. At this time, there is no uniform industry standard for recognizing DNT signals, and My Appliancerescue does not currently respond to such signals <Link to="/privacy-policy">PRIVACY POLICY</Link>.</p>
               </section>
 
               <section>
@@ -147,7 +147,7 @@ export default function CookiePolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Email Support</p>
-                        <p className="font-bold text-lg m-0 text-white">info@fixappliancepro.shop</p>
+                        <p className="font-bold text-lg m-0 text-white">info@myappliancerescue.shop</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -156,7 +156,7 @@ export default function CookiePolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Address</p>
-                        <p className="font-bold text-lg m-0 text-white">128 W Lake St, Addison, IL 60101, USA</p>
+                        <p className="font-bold text-lg m-0 text-white">30 W Lake St, Addison, IL 60101, United States</p>
                       </div>
                     </div>
                   </div>

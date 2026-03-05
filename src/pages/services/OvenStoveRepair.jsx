@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const OvenStoveRepair = () => {
   const features = [
     {
-      title: "Burner Cleaning",
-      desc: "Restoring gas burner efficiency and flame quality for even cooking.",
+      title: "Flame Optimization",
+      desc: "Precision cleaning and adjustment of gas burners to ensure a perfect, blue flame.",
       icon: <PiFireFill />
     },
     {
-      title: "Ignition Fix",
-      desc: "Expert repair for electric igniters and manual gas stove starters.",
+      title: "Spark Ignition Fix",
+      desc: "Expert restoration of auto-ignition systems and electric stove starters for instant lighting.",
       icon: <PiLightningFill />
     },
     {
-      title: "Oven Heating",
-      desc: "Precise calibration and repair of oven heating elements and thermostats.",
+      title: "Heat Precision",
+      desc: "Master calibration of oven heating elements and digital thermostats for accurate baking.",
       icon: <PiThermometerFill />
     },
     {
-      title: "Safety Check",
-      desc: "Comprehensive gas leak testing and electrical grounding verification.",
+      title: "Leak Prevention",
+      desc: "Rigorous gas line testing and pressure checks to ensure a 100% safe cooking environment.",
       icon: <PiGearFill />
     }
   ];
@@ -29,21 +29,21 @@ const OvenStoveRepair = () => {
   return (
     <ServicePageLayout
       title="Oven & Stove"
-      titleAccent="Repair."
-      metaTitle="Oven & Gas Stove Repair | Professional Fix | Fix Appliancepro"
-      metaDesc="Expert repair for gas stoves, hobs, and electric ovens. We fix burners, ignition issues, and thermostats safely."
-      heroDesc="Get back to cooking. We provide professional repair and safety checks for all gas burners, hobs, and electric ovens."
+      titleAccent="Care."
+      metaTitle="Expert Oven & Gas Stove Repair | Safety Certified | My Appliancerescue"
+      metaDesc="Professional repair for gas stoves, hobs, and electric ovens. We fix ignition, burners, and thermostats with a focus on safety."
+      heroDesc="Master your kitchen again. We provide elite repair and safety certification for all gas hobs, ranges, and convection ovens."
       image="/service-9.jpg"
-      mainDesc="Focusing on burner efficiency, ignition reliability, and thermostat accuracy. We perform thorough safety checks for gas leaks and electrical grounding to ensure your kitchen is safe and functional."
+      mainDesc="Cooking range issues can be dangerous. We specialize in flame consistency, ignition reliability, and oven temperature accuracy. Our safety-first approach includes thorough gas leak detection and electrical grounding checks for every service visit."
       highlights={[
-        "Gas safety certified team",
-        "Expert burner maintenance",
-        "Original ignition parts",
-        "Prompt doorstep repair"
+        "Gas Safety Specialists",
+        "Blue-Flame Calibration",
+        "Original Ignition Parts",
+        "Prompt Doorstep Support"
       ]}
       features={features}
-      ctaHeading="Cooking Range Issues?"
-      ctaSubheading="Book A Professional Today."
+      ctaHeading="Cooking Performance Dropped?"
+      ctaSubheading="Restore Your Kitchen's Heart."
     />
   );
 };

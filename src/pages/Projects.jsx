@@ -12,7 +12,7 @@ const Projects = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>Our Projects | Success Stories | Fix Appliancepro</title>
+        <title>Our Projects | Success Stories | My Appliancerescue</title>
         <meta name="description" content="Explore our portfolio of successful appliance repair projects. See how we've helped homeowners fix their essential machines." />
       </Helmet>
 

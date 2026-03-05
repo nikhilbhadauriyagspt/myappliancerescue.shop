@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const RefrigeratorRepair = () => {
   const features = [
     {
-      title: "Cooling Issues",
-      desc: "Fast diagnostics and repair for refrigerators that aren't cooling properly.",
+      title: "Cooling Restoration",
+      desc: "Fast diagnostics and deep repair for refrigerators that have lost their cooling power.",
       icon: <PiSnowflakeFill />
     },
     {
-      title: "Compressor Fix",
-      desc: "Professional repair and replacement of faulty refrigerator compressors.",
+      title: "Compressor Overhaul",
+      desc: "Industrial-grade repair and factory-standard replacement of faulty refrigerator compressors.",
       icon: <PiGearFill />
     },
     {
-      title: "Thermostat Care",
-      desc: "Accurate calibration and replacement of temperature control sensors.",
+      title: "Digital Thermostat",
+      desc: "Precision calibration and replacement of high-accuracy temperature sensors and controls.",
       icon: <PiThermometerFill />
     },
     {
-      title: "Gas Refilling",
-      desc: "Safe and efficient refrigerant gas top-up for optimal performance.",
+      title: "Eco-Friendly Gas",
+      desc: "Safe and efficient refrigerant charging using high-grade, eco-friendly gases.",
       icon: <PiShieldCheckFill />
     }
   ];
@@ -29,21 +29,21 @@ const RefrigeratorRepair = () => {
   return (
     <ServicePageLayout
       title="Refrigerator"
-      titleAccent="Repair."
-      metaTitle="Refrigerator Repair | Fast & Expert Service | Fix Appliancepro"
-      metaDesc="Professional repair for all refrigerator brands. We fix cooling issues, compressors, and more with original parts."
-      heroDesc="Keep your food fresh. We provide same-day repair services for all major refrigerator and freezer brands at your doorstep."
+      titleAccent="Experts."
+      metaTitle="Premium Refrigerator Repair | Same Day Service | My Appliancerescue"
+      metaDesc="Professional repair for all refrigerator and freezer brands. We fix cooling issues, compressors, and thermostat malfunctions with original parts."
+      heroDesc="Keep your food fresh and safe. Our dedicated team provides same-day repair for all major refrigerator and freezer brands at your doorstep."
       image="/service-2.jpg"
-      mainDesc="We offer comprehensive support for cooling issues, compressor malfunctions, and thermostat calibration. Our services cover all major household brands and aim to restore standard operating temperatures quickly and efficiently."
+      mainDesc="A warm fridge is an emergency. We offer elite diagnostics for cooling failures, compressor noises, and ice buildup. Our technicians carry genuine spare parts to ensure a rapid, permanent fix for your essential kitchen appliance."
       highlights={[
-        "Emergency same-day repair",
-        "Expert compressor diagnostics",
-        "Genuine spare parts only",
-        "Affordable & honest pricing"
+        "Emergency Same-Day Fix",
+        "Master Compressor Techs",
+        "Genuine Factory Parts",
+        "Direct & Honest Quotes"
       ]}
       features={features}
       ctaHeading="Fridge Not Cooling?"
-      ctaSubheading="We'll Fix It Today."
+      ctaSubheading="We'll Fix It In 45 Mins."
     />
   );
 };

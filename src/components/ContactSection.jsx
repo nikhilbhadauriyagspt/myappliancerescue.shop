@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { API_ENDPOINTS } from '../config/api';
-import { FiSend, FiMail, FiMapPin, FiPhoneCall } from 'react-icons/fi';
+import { FiSend, FiMail, FiMapPin, FiPhoneCall, FiCheckCircle } from 'react-icons/fi';
 
 const ContactSection = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -35,62 +35,70 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-24 lg:py-32 bg-[#f8fafc] overflow-hidden" id="contact">
-      <div className="max-w-[1800px] mx-auto px-5 md:px-8">
+    <section className="py-24 lg:py-32 bg-white relative overflow-hidden" id="contact">
+      {/* Decorative Blur */}
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/5 blur-[120px] rounded-full -mr-40 -mt-40"></div>
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-orange-500/5 blur-[120px] rounded-full -ml-40 -mb-40"></div>
 
-        <div className="grid lg:grid-cols-12 gap-16 lg:gap-24">
+      <div className="max-w-[1800px] mx-auto px-5 md:px-8 relative z-10">
+        <div className="grid lg:grid-cols-12 gap-16 lg:gap-24 items-center">
 
           {/* Left Side: Contact Info */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5" data-aos="fade-right">
             <div className="mb-12">
-              <div className="flex items-center gap-3 mb-6">
-                <span className="w-12 h-[2px] bg-[#f6c343]"></span>
-                <span className="text-[#2d7ed6] font-extrabold text-[12px] uppercase tracking-[0.35em]">
-                  Get In Touch
-                </span>
+              <div className="inline-flex items-center gap-3 bg-orange-50 px-5 py-2 rounded-full border border-orange-100 mb-6">
+                <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+                <span className="text-orange-600 font-black text-[11px] uppercase tracking-[0.2em]">Get In Touch</span>
               </div>
-              <h2 className="text-3xl md:text-[50px] font-extrabold text-[#0b1220] leading-tight tracking-tight mb-8">
+              <h2 className="text-[40px] md:text-[56px] font-black text-slate-950 leading-[1.1] tracking-tight mb-8">
                 Ready To Fix Your <br />
-                <span className="text-[#2d7ed6]">Appliances?</span>
+                <span className="text-orange-500">Appliances?</span>
               </h2>
-              <p className="text-slate-500 text-lg font-medium leading-relaxed max-w-md">
-                We're here to provide fast and professional repair services. Send us a message and our local experts will reach out within 2 hours.
+              <p className="text-slate-500 text-lg md:text-xl font-medium leading-relaxed max-w-md">
+                Don't let a broken appliance ruin your day. Our local experts are ready to help you within 2 hours.
               </p>
             </div>
 
             {/* Contact Cards */}
             <div className="space-y-6">
-              <ContactInfoCard
-                icon={<FiMail />}
-                label="Email Support"
-                value="info@fixappliancepro.shop"
-                color="[#2d7ed6]"
-              />
+              <div className="group flex items-center gap-8 p-8 rounded-[40px] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:border-orange-500/20 hover:shadow-2xl hover:shadow-orange-500/5">
+                <div className="w-20 h-20 rounded-3xl bg-white flex items-center justify-center text-orange-500 shadow-sm group-hover:bg-orange-500 group-hover:text-white transition-all duration-500">
+                  <FiMail size={32} />
+                </div>
+                <div>
+                  <p className="text-slate-400 text-[11px] font-black uppercase tracking-[0.2em] mb-1">Email Support</p>
+                  <a href="mailto:info@myappliancerescue.shop" className="text-slate-950 font-black text-xl hover:text-orange-500 transition-colors">info@myappliancerescue.shop</a>
+                </div>
+              </div>
 
-              <ContactInfoCard
-                icon={<FiMapPin />}
-                label="Our Service Area"
-                                 value="128 W Lake St, Addison, IL 60101, USA"                color="emerald-500"
-              />
+              <div className="group flex items-center gap-8 p-8 rounded-[40px] bg-slate-50 border border-slate-100 transition-all duration-500 hover:bg-white hover:border-blue-500/20 hover:shadow-2xl hover:shadow-blue-500/5">
+                <div className="w-20 h-20 rounded-3xl bg-white flex items-center justify-center text-blue-500 shadow-sm group-hover:bg-blue-500 group-hover:text-white transition-all duration-500">
+                  <FiMapPin size={32} />
+                </div>
+                <div>
+                  <p className="text-slate-400 text-[11px] font-black uppercase tracking-[0.2em] mb-1">Our Service Area</p>
+                  <p className="text-slate-950 font-black text-xl">30 W Lake St, Addison, IL 60101, United States</p>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Right Side: Form */}
-          <div className="lg:col-span-7">
-            <div className="bg-white rounded-[48px] p-8 md:p-16 shadow-2xl shadow-slate-200/60 relative overflow-hidden border border-slate-100">
+          <div className="lg:col-span-7" data-aos="fade-left">
+            <div className="bg-white rounded-[60px] p-8 md:p-16 shadow-[0_40px_100px_rgba(0,0,0,0.06)] border border-slate-100 relative overflow-hidden group">
               {/* Soft decorative blur */}
-              <div className="absolute top-0 right-0 w-80 h-80 bg-[#2d7ed6]/5 rounded-full blur-[100px] -z-0"></div>
+              <div className="absolute top-0 right-0 w-80 h-80 bg-orange-500/5 rounded-full blur-[100px] -z-0 group-hover:bg-orange-500/10 transition-colors duration-700"></div>
 
               {isSubmitted ? (
                 <div className="relative z-10 text-center py-20">
-                  <div className="w-24 h-24 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-8 shadow-inner">
-                    <FiSend size={40} />
+                  <div className="w-24 h-24 bg-green-50 text-green-500 rounded-full flex items-center justify-center mx-auto mb-8 shadow-inner">
+                    <FiCheckCircle size={48} />
                   </div>
-                  <h3 className="text-3xl font-extrabold text-[#0b1220] mb-4">Message Sent!</h3>
-                  <p className="text-slate-500 text-lg font-medium mb-12 max-w-sm mx-auto">Thank you for reaching out. Our team is reviewing your request and will contact you shortly.</p>
+                  <h3 className="text-3xl font-black text-slate-950 mb-4">Message Sent!</h3>
+                  <p className="text-slate-500 text-lg font-medium mb-12 max-w-sm mx-auto">Our specialized technician will contact you within the next 15-30 minutes.</p>
                   <button
                     onClick={() => setIsSubmitted(false)}
-                    className="bg-[#0b1220] text-white px-10 py-4 rounded-full font-extrabold text-sm uppercase tracking-widest hover:bg-[#2d7ed6] transition-all shadow-xl active:scale-95"
+                    className="bg-slate-950 text-white px-12 py-5 rounded-2xl font-black text-[13px] uppercase tracking-widest hover:bg-orange-500 transition-all shadow-xl active:scale-95"
                   >
                     Send Another Message
                   </button>
@@ -101,7 +109,7 @@ const ContactSection = () => {
                     <InputField
                       label="Full Name"
                       name="name"
-                      placeholder="John Doe"
+                      placeholder="e.g. John Doe"
                       onChange={handleChange}
                       required
                     />
@@ -109,7 +117,7 @@ const ContactSection = () => {
                       label="Email Address"
                       name="email"
                       type="email"
-                      placeholder="john@example.com"
+                      placeholder="e.g. john@mail.com"
                       onChange={handleChange}
                       required
                     />
@@ -119,37 +127,35 @@ const ContactSection = () => {
                     <InputField
                       label="Phone Number"
                       name="phone"
-                      placeholder="(555) 123-4567"
+                      placeholder="e.g. +1 234 567 890"
                       onChange={handleChange}
                       required
                     />
                     <InputField
-                      label="Appliance Issue"
+                      label="Appliance / Issue"
                       name="subject"
-                      placeholder="e.g. Fridge Cooling Issue"
+                      placeholder="e.g. Refrigerator Leak"
                       onChange={handleChange}
                       required
                     />
                   </div>
 
-                  <div className="space-y-3">
-                    <label className="text-[#0b1220] text-[12px] font-extrabold uppercase tracking-widest ml-4">How Can We Help?</label>
+                  <div className="space-y-4">
+                    <label className="text-slate-950 text-[12px] font-black uppercase tracking-widest ml-6">Tell us about the problem</label>
                     <textarea
                       name="message"
                       required
                       onChange={handleChange}
-                      placeholder="Describe the problem you're experiencing..."
+                      placeholder="Describe the issue in detail..."
                       rows="4"
-                      className="w-full bg-[#f8fafc] border border-slate-100 outline-none rounded-[32px] px-8 py-6 text-[#0b1220] font-medium focus:border-[#2d7ed6] focus:bg-white transition-all resize-none placeholder:text-slate-300"
+                      className="w-full bg-slate-50 border border-slate-100 outline-none rounded-[40px] px-10 py-8 text-slate-950 font-bold focus:border-orange-500 focus:bg-white transition-all resize-none placeholder:text-slate-300"
                     ></textarea>
                   </div>
 
                   <div className="pt-4">
-                    <button type="submit" className="w-full md:w-auto bg-[#2d7ed6] text-white hover:bg-[#0b1220] px-12 py-5 rounded-full font-extrabold text-[14px] uppercase tracking-widest transition-all duration-300 flex items-center justify-center gap-4 group shadow-xl transform active:scale-95">
+                    <button type="submit" className="w-full bg-orange-500 text-white hover:bg-slate-950 px-12 py-6 rounded-2xl font-black text-[15px] uppercase tracking-[0.2em] transition-all duration-500 flex items-center justify-center gap-4 group shadow-2xl shadow-orange-500/20 active:scale-95">
                       Send Message Now
-                      <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform">
-                        <FiSend size={16} />
-                      </div>
+                      <FiSend size={20} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
                     </button>
                   </div>
                 </form>
@@ -162,26 +168,14 @@ const ContactSection = () => {
   );
 };
 
-const ContactInfoCard = ({ icon, label, value, color }) => (
-  <div className="flex items-center gap-8 p-8 rounded-[32px] border border-slate-100 bg-white group hover:border-[#2d7ed6] transition-all duration-500 shadow-sm hover:shadow-2xl hover:shadow-[#2d7ed6]/5">
-    <div className={`w-16 h-16 rounded-2xl bg-[#f8fafc] text-${color} flex items-center justify-center group-hover:bg-[#2d7ed6] group-hover:text-white transition-all duration-500 shadow-sm`}>
-      {React.cloneElement(icon, { size: 28 })}
-    </div>
-    <div>
-      <p className="text-slate-400 text-[10px] font-extrabold uppercase tracking-[0.2em] mb-1">{label}</p>
-      <p className="text-[#0b1220] font-extrabold text-lg">{value}</p>
-    </div>
-  </div>
-);
-
 const InputField = ({ label, name, type = "text", placeholder, ...props }) => (
-  <div className="space-y-3">
-    <label className="text-[#0b1220] text-[12px] font-extrabold uppercase tracking-widest ml-4">{label}</label>
+  <div className="space-y-4">
+    <label className="text-slate-950 text-[12px] font-black uppercase tracking-widest ml-6">{label}</label>
     <input
       name={name}
       type={type}
       placeholder={placeholder}
-      className="w-full bg-[#f8fafc] border border-slate-100 outline-none rounded-full px-8 py-4 text-[#0b1220] font-medium focus:border-[#2d7ed6] focus:bg-white transition-all placeholder:text-slate-300"
+      className="w-full bg-slate-50 border border-slate-100 outline-none rounded-full px-10 py-5 text-slate-950 font-bold focus:border-orange-500 focus:bg-white transition-all placeholder:text-slate-300"
       {...props}
     />
   </div>

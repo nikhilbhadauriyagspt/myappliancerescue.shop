@@ -5,45 +5,45 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const OtherAppliances = () => {
   const features = [
     {
-      title: "Expert Diagnostics",
-      desc: "Thorough checking of any household appliance to find the exact issue.",
+      title: "Master Diagnostics",
+      desc: "Deep-level troubleshooting for any household appliance to pinpoint the exact failure point.",
       icon: <PiMagnifyingGlassFill />
     },
     {
-      title: "Component Fix",
-      desc: "Repairing or replacing faulty parts to restore standard operation.",
+      title: "Component Integrity",
+      desc: "Surgical replacement of faulty internal parts to restore original performance levels.",
       icon: <PiGearFill />
     },
     {
-      title: "Safety Check",
-      desc: "Complete electrical and operational safety inspection for your peace of mind.",
+      title: "Full Safety Audit",
+      desc: "Complete electrical grounding and operational safety check for total peace of mind.",
       icon: <PiShieldCheckFill />
     },
     {
-      title: "General Service",
-      desc: "Maintenance and troubleshooting for a wide variety of household devices.",
+      title: "Multi-Brand Support",
+      desc: "Expertise across a vast range of niche household devices and specialty electronics.",
       icon: <PiWrenchFill />
     }
   ];
 
   return (
     <ServicePageLayout
-      title="Other"
+      title="Miscellaneous"
       titleAccent="Appliances."
-      metaTitle="Other Appliance Repair | General Service | Fix Appliancepro"
-      metaDesc="Professional repair for various household appliances. Expert diagnostics and parts replacement for your every need."
-      heroDesc="We fix it all. From small kitchen gadgets to large household devices, our experts are ready to restore any appliance."
+      metaTitle="Specialty Appliance Repair | General Expert Service | My Appliancerescue"
+      metaDesc="Professional repair for all types of household appliances. Master diagnostics and genuine parts replacement for any device."
+      heroDesc="If it's broken, we can fix it. From niche kitchen gadgets to specialty home devices, our experts handle the jobs others won't."
       image="/service-6.jpg"
-      mainDesc="We provide diagnostic and repair solutions for a variety of small and large household appliances based on part availability. Our goal is to provide a one-stop solution for all your home repair needs."
+      mainDesc="Don't throw away your favorite devices just yet. We provide versatile repair solutions for a wide variety of household appliances. Our mission is to provide an honest, one-stop destination for all your home technical needs, no matter how unique the appliance."
       highlights={[
-        "Versatile repair experts",
-        "Honest diagnostic fees",
-        "Prompt doorstep visits",
-        "Quality service guaranteed"
+        "Master-Level Versatility",
+        "No-Fix No-Fee Policy",
+        "Transparent Labor Rates",
+        "Genuine Replacement Parts"
       ]}
       features={features}
       ctaHeading="Something Else Broken?"
-      ctaSubheading="We're Ready To Help."
+      ctaSubheading="Our Experts Are Ready."
     />
   );
 };

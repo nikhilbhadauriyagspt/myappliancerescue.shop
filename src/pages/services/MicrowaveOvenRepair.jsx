@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const MicrowaveOvenRepair = () => {
   const features = [
     {
-      title: "Magnetron Fix",
-      desc: "Expert replacement of magnetrons to restore heating functionality safely.",
+      title: "Magnetron Power",
+      desc: "Expert replacement of high-grade magnetrons to restore heating functionality instantly.",
       icon: <PiWaveformFill />
     },
     {
-      title: "Control Panel",
-      desc: "Repairing touchpads, buttons, and display errors for all microwave models.",
+      title: "Smart Panel Repair",
+      desc: "Precision restoration of touchpads, digital displays, and complex sensor errors.",
       icon: <PiLightningFill />
     },
     {
-      title: "High Voltage Fix",
-      desc: "Safe diagnostics and repair for high-voltage diodes and capacitors.",
+      title: "High-Voltage Safety",
+      desc: "Certified diagnostics and repair for HV diodes, capacitors, and internal transformers.",
       icon: <PiShieldCheckFill />
     },
     {
-      title: "Timer & Sensor",
-      desc: "Accurate repair for timers and internal temperature sensors.",
+      title: "Cycle Calibration",
+      desc: "Accurate repair for mechanical timers and internal thermal sensors for perfect cooking.",
       icon: <PiClockFill />
     }
   ];
@@ -29,21 +29,21 @@ const MicrowaveOvenRepair = () => {
   return (
     <ServicePageLayout
       title="Microwave Oven"
-      titleAccent="Repair."
-      metaTitle="Microwave Repair Service | Fast & Safe | Fix Appliancepro"
-      metaDesc="Professional microwave repair for all brands. We fix heating issues, magnetrons, and control panels safely and quickly."
-      heroDesc="Get back to quick meals. Our experts provide fast and safe repair for all types of microwave ovens at your doorstep."
+      titleAccent="Techs."
+      metaTitle="Professional Microwave Repair Service | Fast & Safe | My Appliancerescue"
+      metaDesc="Expert microwave repair for all premium brands. We fix heating issues, magnetrons, and control panels with a safety-first approach."
+      heroDesc="Quick meals, zero hassle. Our certified experts provide rapid and safe repair for all types of microwave and convection ovens."
       image="/service-8.jpg"
-      mainDesc="Common repairs include magnetron replacement, touch panel restoration, and diode testing. We follow strict safety protocols for all high-voltage repairs, ensuring your appliance is safe to use."
+      mainDesc="Microwave repairs require technical precision and a strict focus on electrical safety. We specialize in resolving heating failures, sparking issues, and keypad malfunctions. Our team uses only manufacturer-approved components to ensure your appliance remains safe for your family."
       highlights={[
-        "Certified electrical experts",
-        "Safe high-voltage repairs",
-        "Original magnetron parts",
-        "Same-day local service"
+        "Safety-Certified Techs",
+        "Original Magnetron Fix",
+        "Prompt 45-Min Arrival",
+        "Full Safety Inspection"
       ]}
       features={features}
       ctaHeading="Microwave Not Heating?"
-      ctaSubheading="Book A Professional Fix."
+      ctaSubheading="Get A Safe, Fast Fix Now."
     />
   );
 };

@@ -11,9 +11,9 @@ export default function RefundPolicy() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Return Policy | Fix Appliancepro - Returns & Refunds</title>
-        <meta name="description" content="Read Fix Appliancepro's return policy. Learn about our 7-day return window, RMA process, and refund timelines." />
-        <link rel="canonical" href="https://fixappliancepro.shop/refund-policy" />
+        <title>Return Policy | My Appliancerescue - Returns & Refunds</title>
+        <meta name="description" content="Read My Appliancerescue's return policy. Learn about our 7-day return window, RMA process, and refund timelines." />
+        <link rel="canonical" href="https://myappliancerescue.shop/refund-policy" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -70,15 +70,15 @@ export default function RefundPolicy() {
                   <h2 className="text-3xl font-bold text-slate-900 uppercase tracking-wider m-0">Return Process</h2>
                 </div>
                 <p>
-                  To return an item, please email customer service at <a href="mailto:info@fixappliancepro.shop">info@fixappliancepro.shop</a> to obtain a Return Merchandise Authorization (RMA) number.
+                  To return an item, please email customer service at <a href="mailto:info@myappliancerescue.shop">info@myappliancerescue.shop</a> to obtain a Return Merchandise Authorization (RMA) number.
                 </p>
                 <p>
                   After receiving an RMA number, place the item securely in its original packaging and include your proof of purchase, then mail your return to the following address:
                 </p>
                 <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 font-bold text-slate-900 mt-4">
-                  <p className="m-0">Fix Appliancepro</p>
+                  <p className="m-0">My Appliancerescue</p>
                   <p className="m-0">2010 N Loop W #105</p>
-                  <p className="m-0">128 W Lake St, Addison, IL 60101, USA</p>
+                  <p className="m-0">30 W Lake St, Addison, IL 60101, United States</p>
                   <p className="m-0">United States</p>
                 </div>
                 <p className="mt-4 text-slate-900">
@@ -126,7 +126,7 @@ export default function RefundPolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Email Support</p>
-                        <p className="font-bold text-lg m-0 text-white">info@fixappliancepro.shop</p>
+                        <p className="font-bold text-lg m-0 text-white">info@myappliancerescue.shop</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
@@ -135,7 +135,7 @@ export default function RefundPolicy() {
                       </div>
                       <div>
                         <p className="text-slate-400 text-sm font-bold uppercase tracking-wider m-0 text-slate-400">Location</p>
-                        <p className="font-bold text-lg m-0 text-white">128 W Lake St, Addison, IL 60101, USA</p>
+                        <p className="font-bold text-lg m-0 text-white">30 W Lake St, Addison, IL 60101, United States</p>
                       </div>
                     </div>
                   </div>

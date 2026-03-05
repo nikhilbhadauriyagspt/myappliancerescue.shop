@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useBooking } from '../../context/BookingContext';
-import { FiX, FiCheck, FiTool, FiMail, FiUser, FiPhone, FiMapPin } from 'react-icons/fi';
+import { FiX, FiCheck, FiTool, FiMail, FiUser, FiPhone, FiMapPin, FiChevronRight } from 'react-icons/fi';
 import { servicesData } from '../../data/services';
 import { API_ENDPOINTS } from '../../config/api';
 
@@ -38,7 +38,7 @@ const BookingModal = () => {
           setIsSubmitted(false);
           closeBookingModal();
           setFormData({ name: '', phone: '', email: '', appliance: '', location: '' });
-        }, 3000);
+        }, 4000);
       }
     } catch (error) {
       console.error("Submission error:", error);
@@ -47,7 +47,7 @@ const BookingModal = () => {
       setTimeout(() => {
         setIsSubmitted(false);
         closeBookingModal();
-      }, 3000);
+      }, 4000);
     }
   };
 
@@ -56,69 +56,80 @@ const BookingModal = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-[500] flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-[500] flex items-center justify-center p-4 md:p-6">
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-[#041127]/80 backdrop-blur-sm transition-opacity duration-300"
+        className="absolute inset-0 bg-slate-950/90 backdrop-blur-md transition-opacity duration-300"
         onClick={closeBookingModal}
       ></div>
 
       {/* Modal Content */}
-      <div className="relative w-full max-w-2xl bg-white rounded-[32px] shadow-2xl overflow-hidden transform transition-all animate-in fade-in zoom-in duration-300">
-        <div className="absolute top-6 right-6 z-10">
-          <button
-            onClick={closeBookingModal}
-            className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-slate-500 hover:bg-[#f6c343] hover:text-[#0b1220] transition-all"
-          >
-            <FiX size={20} />
-          </button>
-        </div>
+      <div className="relative w-full max-w-4xl bg-white rounded-[40px] shadow-[0_40px_100px_rgba(0,0,0,0.4)] overflow-hidden transform transition-all animate-in fade-in zoom-in duration-500 flex flex-col md:flex-row min-h-[600px]">
+        
+        {/* Close Button */}
+        <button
+          onClick={closeBookingModal}
+          className="absolute top-6 right-6 z-[60] w-12 h-12 rounded-2xl bg-slate-50 flex items-center justify-center text-slate-950 hover:bg-orange-500 hover:text-white transition-all duration-300 active:scale-95"
+        >
+          <FiX size={24} />
+        </button>
 
         {isSubmitted ? (
-          <div className="p-12 md:p-20 text-center">
-            <div className="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <FiCheck size={40} />
+          <div className="w-full p-12 md:p-24 text-center flex flex-col items-center justify-center bg-white">
+            <div className="w-24 h-24 bg-green-50 text-green-500 rounded-full flex items-center justify-center mb-8 shadow-inner animate-bounce-slow">
+              <FiCheck size={48} />
             </div>
-            <h3 className="text-3xl font-extrabold text-[#0b1220] mb-3">Booking Confirmed!</h3>
-            <p className="text-slate-500 text-lg">Thank you for choosing Fix Appliancepro. Our team will contact you shortly to confirm your service window.</p>
+            <h3 className="text-4xl font-black text-slate-950 mb-4 tracking-tight">Booking Request Sent!</h3>
+            <p className="text-slate-500 text-lg font-medium max-w-md mx-auto">Thank you for choosing <span className="text-orange-500 font-bold">My Appliancerescue</span>. Our team will contact you within 15-30 minutes to confirm your schedule.</p>
           </div>
         ) : (
-          <div className="flex flex-col md:flex-row">
-            {/* Left Sidebar - Visual */}
-            <div className="hidden md:flex md:w-1/3 bg-[#06162f] p-10 flex-col justify-between text-white">
-              <div>
-                <div className="w-12 h-12 rounded-2xl bg-[#f6c343] text-[#0b1220] flex items-center justify-center mb-6">
-                  <FiTool size={24} />
+          <>
+            {/* Left Sidebar - Visual Premium Area */}
+            <div className="md:w-[38%] bg-slate-950 p-10 md:p-14 flex flex-col justify-between relative overflow-hidden">
+              {/* Decorative elements */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 blur-[80px] rounded-full -mr-32 -mt-32"></div>
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-blue-500/10 blur-[60px] rounded-full -ml-24 -mb-24"></div>
+
+              <div className="relative z-10">
+                <div className="w-16 h-16 rounded-2xl bg-orange-500 text-white flex items-center justify-center mb-10 shadow-2xl shadow-orange-500/20">
+                  <FiTool size={32} />
                 </div>
-                <h3 className="text-2xl font-extrabold leading-tight mb-4">Fast & Reliable Repairs</h3>
-                <p className="text-white/60 text-sm leading-relaxed">Schedule your appliance repair in less than a minute. Priority service guaranteed.</p>
+                <h3 className="text-[32px] md:text-[40px] font-black text-white leading-[1.1] mb-6 tracking-tight">
+                  Expert Care <br />
+                  <span className="text-orange-500 italic">At Your Door.</span>
+                </h3>
+                <p className="text-white/50 text-[16px] font-medium leading-relaxed max-w-xs">
+                  Join hundreds of homeowners who trust our fast, honest, and professional repair services every week.
+                </p>
               </div>
 
-              <div className="space-y-4">
-                <div className="flex items-center gap-3 text-sm font-semibold">
-                  <div className="w-2 h-2 rounded-full bg-[#f6c343]"></div>
-                  Same-Day Service
-                </div>
-                <div className="flex items-center gap-3 text-sm font-semibold">
-                  <div className="w-2 h-2 rounded-full bg-[#f6c343]"></div>
-                  Expert Technicians
-                </div>
-                <div className="flex items-center gap-3 text-sm font-semibold">
-                  <div className="w-2 h-2 rounded-full bg-[#f6c343]"></div>
-                  Certified Spare Parts
-                </div>
+              <div className="relative z-10 space-y-6">
+                {[
+                  { label: "Same-Day Service", color: "bg-orange-500" },
+                  { label: "Certified Experts", color: "bg-blue-500" },
+                  { label: "No Hidden Fees", color: "bg-green-500" }
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center gap-4 text-white/80 font-bold text-sm uppercase tracking-widest">
+                    <div className={`w-2.5 h-2.5 rounded-full ${item.color} shadow-[0_0_10px_rgba(249,115,22,0.4)]`}></div>
+                    {item.label}
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* Right Side - Form */}
-            <div className="flex-1 p-8 md:p-12">
-              <div className="mb-8">
-                <h3 className="text-3xl font-extrabold text-[#0b1220]">Book a Service</h3>
-                <p className="text-slate-500 font-medium mt-1">Fill out the details below to schedule.</p>
+            {/* Right Side - Premium Form */}
+            <div className="flex-1 p-10 md:p-16 bg-white flex flex-col justify-center">
+              <div className="mb-12">
+                <div className="inline-flex items-center gap-2 bg-orange-50 px-4 py-1.5 rounded-full border border-orange-100 mb-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                  <span className="text-orange-600 font-black text-[10px] uppercase tracking-[0.2em]">Priority Booking</span>
+                </div>
+                <h3 className="text-[36px] font-black text-slate-950 tracking-tight leading-none">Schedule A Fix</h3>
+                <p className="text-slate-400 font-medium mt-3">Enter your details for an immediate callback.</p>
               </div>
 
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <ModalField
                     icon={<FiUser />}
                     name="name"
@@ -128,18 +139,6 @@ const BookingModal = () => {
                     required
                   />
                   <ModalField
-                    icon={<FiMail />}
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="Email Address"
-                    type="email"
-                    required
-                  />
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <ModalField
                     icon={<FiPhone />}
                     name="phone"
                     value={formData.phone}
@@ -148,8 +147,20 @@ const BookingModal = () => {
                     type="tel"
                     required
                   />
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <ModalField
+                    icon={<FiMail />}
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="Email Address"
+                    type="email"
+                    required
+                  />
                   <div className="relative group">
-                    <div className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-[#2d7ed6] transition-colors">
+                    <div className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-orange-500 transition-colors z-10 pointer-events-none">
                       <FiTool />
                     </div>
                     <select
@@ -157,18 +168,21 @@ const BookingModal = () => {
                       value={formData.appliance}
                       onChange={handleChange}
                       required
-                      className="w-full bg-slate-50 border border-slate-100 rounded-2xl pl-12 pr-4 py-3.5 focus:outline-none focus:border-[#2d7ed6] focus:bg-white transition-all font-medium text-[#0b1220] appearance-none cursor-pointer"
+                      className="w-full bg-slate-50 border border-slate-100 rounded-2xl pl-14 pr-10 py-4 focus:outline-none focus:border-orange-500 focus:bg-white transition-all font-bold text-slate-950 appearance-none cursor-pointer relative"
                     >
-                      <option value="">Select Appliance</option>
+                      <option value="">Select Service</option>
                       {servicesData.map((service) => (
                         <option key={service.id} value={service.title}>{service.title}</option>
                       ))}
                     </select>
+                    <div className="absolute right-6 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400">
+                      <FiChevronRight className="rotate-90" />
+                    </div>
                   </div>
                 </div>
 
                 <div className="relative group">
-                  <div className="absolute left-4 top-5 text-slate-400 group-focus-within:text-[#2d7ed6] transition-colors">
+                  <div className="absolute left-6 top-6 text-slate-400 group-focus-within:text-orange-500 transition-colors z-10 pointer-events-none">
                     <FiMapPin />
                   </div>
                   <textarea
@@ -177,20 +191,26 @@ const BookingModal = () => {
                     onChange={handleChange}
                     required
                     rows="2"
-                    className="w-full bg-slate-50 border border-slate-100 rounded-2xl pl-12 pr-4 py-4 focus:outline-none focus:border-[#2d7ed6] focus:bg-white transition-all font-medium text-[#0b1220] resize-none"
-                    placeholder="Enter Service Location (Address)"
+                    className="w-full bg-slate-50 border border-slate-100 rounded-[24px] pl-14 pr-6 py-5 focus:outline-none focus:border-orange-500 focus:bg-white transition-all font-bold text-slate-950 resize-none"
+                    placeholder="Where should we come? (Address)"
                   ></textarea>
                 </div>
 
-                <button
-                  type="submit"
-                  className="w-full bg-[#2d7ed6] text-white font-extrabold uppercase tracking-wider py-4 rounded-2xl shadow-xl hover:bg-[#06162f] transition-all transform active:scale-95 mt-4"
-                >
-                  Confirm Booking
-                </button>
+                <div className="pt-4">
+                  <button
+                    type="submit"
+                    className="w-full bg-orange-500 text-white font-black uppercase tracking-[0.2em] py-6 rounded-2xl shadow-2xl shadow-orange-500/20 hover:bg-slate-950 transition-all duration-500 transform active:scale-95 flex items-center justify-center gap-4 group"
+                  >
+                    Confirm Priority Booking
+                    <FiChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                  </button>
+                  <p className="text-center text-slate-400 text-[10px] font-bold uppercase tracking-widest mt-6">
+                    Professional Standards • Guaranteed Results
+                  </p>
+                </div>
               </form>
             </div>
-          </div>
+          </>
         )}
       </div>
     </div>
@@ -199,11 +219,11 @@ const BookingModal = () => {
 
 const ModalField = ({ icon, ...props }) => (
   <div className="relative group">
-    <div className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-[#2d7ed6] transition-colors">
+    <div className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-orange-500 transition-colors z-10 pointer-events-none">
       {icon}
     </div>
     <input
-      className="w-full bg-slate-50 border border-slate-100 rounded-2xl pl-12 pr-4 py-3.5 focus:outline-none focus:border-[#2d7ed6] focus:bg-white transition-all font-medium text-[#0b1220]"
+      className="w-full bg-slate-50 border border-slate-100 rounded-2xl pl-14 pr-6 py-4 focus:outline-none focus:border-orange-500 focus:bg-white transition-all font-bold text-slate-950"
       {...props}
     />
   </div>

@@ -11,9 +11,9 @@ export default function Disclaimer() {
   return (
     <div className="bg-white min-h-screen font-sans overflow-x-hidden">
       <Helmet>
-        <title>Disclaimer | Fix Appliancepro - Important Information</title>
-        <meta name="description" content="Official Disclaimer for Fix Appliancepro. Learn about our general, professional, and external links information policies." />
-        <link rel="canonical" href="https://fixappliancepro.shop/disclaimer" />
+        <title>Disclaimer | My Appliancerescue - Important Information</title>
+        <meta name="description" content="Official Disclaimer for My Appliancerescue. Learn about our general, professional, and external links information policies." />
+        <link rel="canonical" href="https://myappliancerescue.shop/disclaimer" />
       </Helmet>
 
       {/* Page Hero Section - Clean & Premium */}
@@ -52,7 +52,7 @@ export default function Disclaimer() {
                   <h2 className="text-3xl font-bold text-slate-900 uppercase tracking-wider m-0">General Disclaimer</h2>
                 </div>
                 <p>
-                  The information provided by <strong>Fix Appliancepro</strong> ("we," "us," or "our") on <a href="https://fixappliancepro.shop" className="text-amber-600 font-bold hover:underline">https://fixappliancepro.shop</a> (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
+                  The information provided by <strong>My Appliancerescue</strong> ("we," "us," or "our") on <a href="https://myappliancerescue.shop" className="text-amber-600 font-bold hover:underline">https://myappliancerescue.shop</a> (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site.
                 </p>
               </section>
 
@@ -88,7 +88,7 @@ export default function Disclaimer() {
                   <div className="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-amber-400">
                     <FiAlertTriangle />
                   </div>
-                  <span className="font-bold text-white">Email: info@fixappliancepro.shop</span>
+                  <span className="font-bold text-white">Email: info@myappliancerescue.shop</span>
                 </div>
               </section>
 

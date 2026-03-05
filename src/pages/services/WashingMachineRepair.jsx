@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const WashingMachineRepair = () => {
   const features = [
     {
-      title: "Motor Repair",
-      desc: "Repairing or replacing motors to restore smooth spinning performance.",
+      title: "Torque Engine Fix",
+      desc: "Expert restoration of high-torque motors to ensure smooth, powerful spinning cycles.",
       icon: <PiGearFill />
     },
     {
-      title: "Leak Solutions",
-      desc: "Comprehensive fix for water leakage and complex drainage issues.",
+      title: "Hydro-Seal Tech",
+      desc: "Permanent solutions for water leakage, door seal failures, and drainage blockages.",
       icon: <PiDropFill />
     },
     {
-      title: "PCB Services",
-      desc: "Expert repair for digital displays and control board malfunctions.",
+      title: "Digital Logic Repair",
+      desc: "Master diagnostics for control boards, touch interfaces, and digital error codes.",
       icon: <PiLightningFill />
     },
     {
-      title: "Drum Cleaning",
-      desc: "Professional deep cleaning to eliminate odors and keep clothes fresh.",
+      title: "Hygiene Sterilization",
+      desc: "Deep industrial drum cleaning to remove mold, bacteria, and restore original freshness.",
       icon: <PiShieldCheckFill />
     }
   ];
@@ -29,21 +29,21 @@ const WashingMachineRepair = () => {
   return (
     <ServicePageLayout
       title="Washing Machine"
-      titleAccent="Repair."
-      metaTitle="Washing Machine Repair | Fast & Expert Service | Fix Appliancepro"
-      metaDesc="Get your washing machine fixed today. We repair all top-load and front-load brands with original parts and professional care."
-      heroDesc="Don't let laundry pile up. We provide quick, honest, and professional repair for all types of washing machines at your doorstep."
+      titleAccent="Experts."
+      metaTitle="Premium Washing Machine Repair | Fast & Expert | My Appliancerescue"
+      metaDesc="Get your washing machine fixed today. We repair all front-load and top-load brands with original parts and elite care."
+      heroDesc="Laundry simplified. We provide rapid, honest, and high-performance repair for all washing machine types right at your doorstep."
       image="/service-1.jpg"
-      mainDesc="Whether you have a front-load or top-load machine, our skilled team is equipped to fix it. We handle motor issues, water leaks, and digital errors with precision. We only use original factory parts to ensure your machine operates perfectly for years to come."
+      mainDesc="Whether it's a high-end front loader or a classic top loader, mechanical failure can stop your day. We specialize in resolving motor issues, water intake failures, and electronics glitches. Our dedicated team uses only factory-original parts for a guaranteed long-term fix."
       highlights={[
-        "Same-day visits for urgent repairs",
-        "Original parts with 100% guarantee",
-        "Fair and transparent pricing",
-        "Friendly, certified technicians"
+        "Same-Day Priority Visits",
+        "Original Factory Parts",
+        "No-Mess Service Policy",
+        "Certified Tech Support"
       ]}
       features={features}
       ctaHeading="Is Your Machine Leaking?"
-      ctaSubheading="Let Us Fix It Fast."
+      ctaSubheading="We'll Fix It Permanently."
     />
   );
 };

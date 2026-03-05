@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const WaterPurifierRepair = () => {
   const features = [
     {
-      title: "Filter Change",
-      desc: "Prompt replacement of sediment, carbon, and RO filters for pure water.",
+      title: "Filter Rejuvenation",
+      desc: "Precision replacement of sediment, pre-carbon, and activated carbon filters for pure water.",
       icon: <PiDropFill />
     },
     {
-      title: "Pump Repair",
-      desc: "Professional diagnostics and repair for RO pressure pumps and motors.",
+      title: "BOOSTER Pump Care",
+      desc: "Expert repair and high-pressure motor replacement for RO systems to maintain water flow.",
       icon: <PiGearFill />
     },
     {
-      title: "TDS Adjustment",
-      desc: "Accurate monitoring and adjustment of TDS levels for healthy drinking water.",
+      title: "Mineral TDS Logic",
+      desc: "Scientific adjustment of TDS and mineral controllers for the healthiest drinking water.",
       icon: <PiWavesFill />
     },
     {
-      title: "UV Lamp Fix",
-      desc: "Checking and replacing UV lamps to ensure complete disinfection.",
+      title: "UV/UF Sterilization",
+      desc: "Rigorous testing and replacement of UV lamps to ensure 100% pathogen-free output.",
       icon: <PiShieldCheckFill />
     }
   ];
@@ -29,21 +29,21 @@ const WaterPurifierRepair = () => {
   return (
     <ServicePageLayout
       title="Water Purifier"
-      titleAccent="Service."
-      metaTitle="RO & Water Purifier Repair | Pure Water | Fix Appliancepro"
-      metaDesc="Professional water purifier repair and maintenance. We fix RO systems, change filters, and adjust TDS levels."
-      heroDesc="Ensure pure drinking water for your family. We provide expert maintenance and repair for all RO and UV water purification systems."
+      titleAccent="Specialists."
+      metaTitle="RO & Water Purifier Repair | Pure Drinking Water | My Appliancerescue"
+      metaDesc="Professional RO and UV water purifier repair. We handle filter changes, membrane checks, and TDS adjustments with genuine parts."
+      heroDesc="Health starts with water. We provide elite maintenance and rapid repair for all high-end RO and UV purification systems."
       image="/service-10.jpg"
-      mainDesc="Support for water purification systems, including RO membrane checks, filter changes, and pump maintenance. We ensure your purifier delivers the highest quality output for your safety."
+      mainDesc="Pure water is non-negotiable. Our dedicated specialists provide comprehensive membrane health checks, high-pressure pump repairs, and TDS balancing. We ensure your family receives the highest standard of purified water by using only food-grade components."
       highlights={[
-        "Pure water quality experts",
-        "Original membrane & filters",
-        "Free TDS monitoring",
-        "Same-day filter service"
+        "Pure Water Certification",
+        "Original RO membranes",
+        "Precision TDS Balancing",
+        "Same-Day Filter Swap"
       ]}
       features={features}
-      ctaHeading="Purifier Not Working?"
-      ctaSubheading="Drink Pure, Stay Healthy."
+      ctaHeading="Purifier Tasting Different?"
+      ctaSubheading="Restore Purity Today."
     />
   );
 };

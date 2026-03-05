@@ -29,7 +29,7 @@ const ProjectDetails = () => {
   return (
     <div className="min-h-screen bg-white font-sans overflow-x-hidden">
       <Helmet>
-        <title>{project.title} | Success Story | Fix Appliancepro</title>
+        <title>{project.title} | Success Story | My Appliancerescue</title>
         <meta name="description" content={project.description || project.title} />
       </Helmet>
 

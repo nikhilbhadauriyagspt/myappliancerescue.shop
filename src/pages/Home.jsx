@@ -22,15 +22,15 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Fix Appliancepro - Trusted Home Appliance Repair Services</title>
+        <title>My Appliancerescue - Trusted Home Appliance Repair Services</title>
         <meta name="description" content="Reliable home appliance repair near you. Experts in washing machines, refrigerators, ACs & more. Certified specialists, same-day service, fair pricing." />
-        <link rel="canonical" href="https://fixappliancepro.shop/" />
+        <link rel="canonical" href="https://myappliancerescue.shop/" />
 
         {/* Social Media Sharing Tags */}
-        <meta property="og:title" content="Fix Appliancepro - Trusted Home Appliance Repair Services" />
+        <meta property="og:title" content="My Appliancerescue - Trusted Home Appliance Repair Services" />
         <meta property="og:description" content="Reliable home appliance repair near you. Experts in washing machines, refrigerators, ACs & more. Certified specialists, same-day service, fair pricing." />
-        <meta property="og:image" content="https://fixappliancepro.shop/logo/logo.png" />
-        <meta property="og:url" content="https://fixappliancepro.shop/" />
+        <meta property="og:image" content="https://myappliancerescue.shop/logo/logo.png" />
+        <meta property="og:url" content="https://myappliancerescue.shop/" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <HeroSection />

@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const KitchenChimneyRepair = () => {
   const features = [
     {
-      title: "Motor Service",
-      desc: "Expert diagnostics and repair for chimney exhaust motors and blowers.",
+      title: "High-Torque Motor",
+      desc: "Precision diagnostics and rebuilding of chimney exhaust motors for maximum longevity.",
       icon: <PiFanFill />
     },
     {
-      title: "Deep Cleaning",
-      desc: "Thorough cleaning of filters and blowers to restore suction power.",
+      title: "Deep Degreasing",
+      desc: "Industrial-grade cleaning of filters and blowers to restore 100% suction power.",
       icon: <PiDropFill />
     },
     {
-      title: "Switch Panel",
-      desc: "Repairing touchpads and push-button panels for all chimney types.",
+      title: "Soft-Touch Interface",
+      desc: "Expert repair for advanced touchpads, motion sensors, and push-button control panels.",
       icon: <PiLightningFill />
     },
     {
-      title: "Suction Recovery",
-      desc: "Identifying and fixing blockages to ensure efficient smoke extraction.",
+      title: "Aero-Flow Recovery",
+      desc: "Comprehensive duct inspection and blockage removal for efficient smoke extraction.",
       icon: <PiGearFill />
     }
   ];
@@ -29,21 +29,21 @@ const KitchenChimneyRepair = () => {
   return (
     <ServicePageLayout
       title="Kitchen Chimney"
-      titleAccent="Service."
-      metaTitle="Kitchen Chimney Repair & Cleaning | Fix Appliancepro"
-      metaDesc="Professional repair and cleaning for kitchen exhaust systems. We fix motors, switch panels, and perform deep cleaning."
-      heroDesc="Keep your kitchen smoke-free. We provide expert cleaning and repair services for all types of kitchen chimneys and exhaust systems."
+      titleAccent="Experts."
+      metaTitle="Premium Kitchen Chimney Repair & Cleaning | My Appliancerescue"
+      metaDesc="Professional repair and industrial cleaning for kitchen exhaust systems. We fix motors, touch panels, and restore full suction."
+      heroDesc="Breathe fresh air. Our specialists provide deep cleaning and precision repair for all high-end chimney and exhaust systems."
       image="/service-12.jpg"
-      mainDesc="Deep cleaning services for filters and blowers, along with motor diagnostics and switch panel repairs. We ensure your kitchen remains fresh and clean by optimizing your chimney's performance."
+      mainDesc="A greasy chimney is both a health risk and a fire hazard. We specialize in deep degreasing and motor optimization to keep your kitchen smoke-free. From sensor issues to noisy blowers, our dedicated team ensures your chimney operates at its peak factory performance."
       highlights={[
-        "Expert chimney cleaning",
-        "Prompt suction restoration",
-        "Original switch & motors",
-        "Affordable maintenance"
+        "Industrial Deep Cleaning",
+        "Suction Power Guarantee",
+        "Original Control Panels",
+        "Same-Day Maintenance"
       ]}
       features={features}
-      ctaHeading="Chimney Suction Weak?"
-      ctaSubheading="Book A Deep Clean Now."
+      ctaHeading="Chimney Lost Its Suction?"
+      ctaSubheading="Restore Freshness Today."
     />
   );
 };

@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const CoffeeMakerRepair = () => {
   const features = [
     {
-      title: "Heating Repair",
-      desc: "Expert fix for boilers and heating elements to ensure the perfect temperature.",
+      title: "Brew Temperature",
+      desc: "Internal boiler and heating element calibration for the perfect, consistent brew.",
       icon: <PiThermometerFill />
     },
     {
-      title: "Pump Service",
-      desc: "Repair and replacement of pressure pumps for consistent brewing.",
+      title: "High-Pressure Pump",
+      desc: "Repair and replacement of precision pumps to ensure optimal extraction levels.",
       icon: <PiGearFill />
     },
     {
-      title: "Deep Descaling",
-      desc: "Thorough internal cleaning to remove mineral buildup and improve taste.",
+      title: "Professional Descaling",
+      desc: "Deep molecular cleaning to remove stubborn mineral buildup and restore pure flavor.",
       icon: <PiCoffeeFill />
     },
     {
-      title: "Leak Solutions",
-      desc: "Fixing internal seals and tubes to stop water leakage during brewing.",
+      title: "Seal & Gasket Care",
+      desc: "Fixing internal pressure leaks and drips with high-grade, food-safe replacement parts.",
       icon: <PiDropFill />
     }
   ];
@@ -29,21 +29,21 @@ const CoffeeMakerRepair = () => {
   return (
     <ServicePageLayout
       title="Coffee Maker"
-      titleAccent="Service."
-      metaTitle="Coffee Machine Repair | Home & Commercial | Fix Appliancepro"
-      metaDesc="Professional coffee maker repair for all brands. We fix heating issues, pumps, and provide descaling services."
-      heroDesc="Don't miss your morning cup. We provide expert repair and maintenance for home and commercial coffee brewing systems."
+      titleAccent="Care."
+      metaTitle="Expert Coffee Machine Repair | Home & Cafe Support | My Appliancerescue"
+      metaDesc="Professional coffee maker repair for all premium brands. We fix heating, pressure pumps, and offer deep descaling."
+      heroDesc="Your morning cup matters. We provide specialized repair and maintenance for high-end home and commercial brewing systems."
       image="/service-5.jpg"
-      mainDesc="Addressing heating problems, pump failures, and internal blockages. We provide descaling services and component replacement for various brewing systems to ensure your coffee tastes perfect every time."
+      mainDesc="Whether it's an espresso machine or a standard brewer, consistency is key. We diagnose pressure issues, temperature fluctuations, and flow blockages to ensure every cup meets professional standards. Honest service for true coffee lovers."
       highlights={[
-        "Precision brewing expertise",
-        "Home & commercial support",
-        "Prompt local service",
-        "Original replacement seals"
+        "Precision Brew Calibration",
+        "Premium Parts Only",
+        "Home & Office Support",
+        "Flavor-First Philosophy"
       ]}
       features={features}
-      ctaHeading="Coffee Machine Broken?"
-      ctaSubheading="Let Us Restore The Taste."
+      ctaHeading="Machine Malfunctioning?"
+      ctaSubheading="Restore Your Perfect Brew."
     />
   );
 };

@@ -1,116 +1,95 @@
 import React, { useState } from 'react';
-import { FiPlus, FiMinus, FiArrowRight } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { FiPlus, FiMinus } from 'react-icons/fi';
 
 const FAQSection = () => {
-  const [openId, setOpenId] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const faqs = [
     {
-      id: 0,
-      question: "Which appliances do you fix?",
-      answer: "We fix almost all home machines including washing machines, refrigerators, ACs, microwaves, and more. If it's a household machine, we can likely fix it!"
+      q: "How fast can you repair my appliance?",
+      a: "We offer same-day repair services for most calls received before noon. Our goal is to resolve your appliance issues within 24 hours."
     },
     {
-      id: 1,
-      question: "How fast can you come to my home?",
-      answer: "We offer same-day service! If you book in the morning, our specialist can usually reach your home within 2 to 4 hours."
+      q: "Do you provide a warranty on repairs?",
+      a: "Yes, all our repair services come with a professional warranty on both parts and labor, ensuring your peace of mind and satisfaction."
     },
     {
-      id: 2,
-      question: "Do you use original spare parts?",
-      answer: "Yes, we only use 100% genuine and original parts from the manufacturers. This ensures your appliance lasts longer after the repair."
+      q: "Are your technicians certified?",
+      a: "Every member of our team is fully certified, background-checked, and highly experienced in repairing all major appliance brands and models."
     },
     {
-      id: 3,
-      question: "Is there a warranty on the repair?",
-      answer: "Absolutely. We give you a 45-day warranty on our service. If the same problem happens again, we will fix it for free."
+      q: "Do you use original spare parts?",
+      a: "We exclusively use genuine, manufacturer-approved parts to ensure the longevity and peak performance of your household appliances."
     },
     {
-      id: 4,
-      question: "What are your service charges?",
-      answer: "We offer fair and honest pricing. After checking your machine, our specialist will give you a clear price before starting any work. No hidden fees."
-    },
-    {
-      id: 5,
-      question: "Are your technicians certified?",
-      answer: "Yes, all our specialists are highly skilled and have years of experience. They are friendly, professional, and will treat your home with respect."
+      q: "How much does a service call cost?",
+      a: "We provide upfront, transparent pricing. Our service call fee is applied toward the total cost of your repair, so you never pay twice."
     }
   ];
 
-  const AccordionItem = ({ item, isOpen, toggle }) => (
-    <div className={`mb-4 overflow-hidden rounded-[24px] border transition-all duration-300 ${isOpen ? 'bg-[#f8fafc] border-[#2d7ed6]/30 shadow-xl shadow-[#2d7ed6]/5' : 'bg-white border-slate-100 hover:border-slate-300'}`}>
-      <button
-        onClick={toggle}
-        className="flex w-full items-center justify-between py-6 px-6 md:px-8 text-left transition-all group"
-      >
-        <span className={`text-lg md:text-xl font-extrabold transition-colors ${isOpen ? 'text-[#2d7ed6]' : 'text-[#0b1220]'}`}>
-          {item.question}
-        </span>
-        <div className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${isOpen ? 'bg-[#2d7ed6] text-white rotate-180' : 'bg-[#f8fafc] text-slate-400 group-hover:bg-[#2d7ed6] group-hover:text-white'}`}>
-          {isOpen ? <FiMinus size={20} /> : <FiPlus size={20} />}
-        </div>
-      </button>
-      <div className={`transition-all duration-500 ease-in-out overflow-hidden ${isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-        <div className="px-6 md:px-8 pb-8">
-          <p className="text-slate-500 text-[16px] font-medium leading-relaxed max-w-3xl">
-            {item.answer}
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-
   return (
-    <section className="py-24 lg:py-32 bg-[#f8fafc]" id="faq">
+    <section className="py-24 lg:py-32 bg-slate-50/50">
       <div className="max-w-[1800px] mx-auto px-5 md:px-8">
 
-        {/* Centered Header */}
-        <div className="text-center max-w-3xl mx-auto mb-20">
-          <div className="flex items-center justify-center gap-3 mb-6">
-            <span className="w-12 h-[2px] bg-[#f6c343]"></span>
-            <span className="text-[#2d7ed6] font-extrabold text-[12px] uppercase tracking-[0.35em]">
-              Help Center
-            </span>
-            <span className="w-12 h-[2px] bg-[#f6c343]"></span>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+
+          <div data-aos="fade-right">
+            <div className="inline-flex items-center gap-3 bg-white px-5 py-2 rounded-full border border-slate-200 shadow-sm mb-6">
+              <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
+              <span className="text-orange-600 font-black text-[11px] uppercase tracking-[0.2em]">Got Questions?</span>
+            </div>
+            <h2 className="text-[40px] md:text-[56px] font-black text-slate-950 leading-[1.1] tracking-tight mb-8">
+              Everything You <br /> Need To <span className="text-orange-500 underline decoration-slate-200 underline-offset-8">Know.</span>
+            </h2>
+            <p className="text-slate-500 font-medium text-lg leading-relaxed max-w-sm mb-10">
+              Can't find what you're looking for? Reach out to our support team for immediate assistance.
+            </p>
+
+            <div className="bg-slate-950 p-10 rounded-[40px] shadow-2xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-orange-500/20 blur-[60px] rounded-full"></div>
+              <h4 className="text-white text-2xl font-black mb-4 relative z-10">Still Have Questions?</h4>
+              <p className="text-white/60 font-medium mb-8 relative z-10">We're here to help you get your home back in order.</p>
+              <button className="relative z-10 w-full py-5 bg-orange-500 text-white font-black uppercase tracking-widest text-sm rounded-2xl hover:bg-white hover:text-slate-950 transition-all duration-500">
+                Ask A Expert
+              </button>
+            </div>
           </div>
-          <h2 className="text-3xl md:text-[50px] font-extrabold text-[#0b1220] leading-tight tracking-tight mb-6">
-            Frequently Asked <span className="text-[#2d7ed6]">Questions.</span>
-          </h2>
-          <p className="text-slate-500 font-medium text-lg">
-            Find quick answers to common questions about our professional repair services.
-          </p>
-        </div>
 
-        {/* Accordion List */}
-        <div className="max-w-4xl mx-auto">
-          {faqs.map((faq) => (
-            <AccordionItem
-              key={faq.id}
-              item={faq}
-              isOpen={openId === faq.id}
-              toggle={() => setOpenId(openId === faq.id ? -1 : faq.id)}
-            />
-          ))}
-        </div>
-
-        {/* Bottom Help Trigger */}
-        <div className="mt-20 max-w-4xl mx-auto">
-           <div className="flex flex-col md:flex-row items-center gap-8 p-10 bg-[#06162f] rounded-[32px] w-full justify-between shadow-2xl overflow-hidden relative">
-              <div className="absolute top-0 right-0 w-64 h-64 bg-[#2d7ed6]/10 rounded-full blur-[80px]"></div>
-              
-              <div className="relative z-10 text-center md:text-left">
-                <h4 className="text-white text-2xl font-extrabold mb-2">Still Have Questions?</h4>
-                <p className="text-white/60 font-medium">We're here to help. Contact our support team for any emergency.</p>
-              </div>
-
-              <Link 
-                to="/contact" 
-                className="relative z-10 group flex items-center gap-3 px-10 py-4 bg-[#f6c343] text-[#0b1220] rounded-full font-extrabold text-[14px] uppercase tracking-wider hover:bg-white transition-all shadow-xl active:scale-95"
+          <div className="space-y-4" data-aos="fade-left">
+            {faqs.map((faq, idx) => (
+              <div
+                key={idx}
+                className={`group border rounded-[32px] transition-all duration-500 ${activeIndex === idx
+                  ? "bg-white border-orange-500/30 shadow-[0_20px_60px_rgba(0,0,0,0.04)]"
+                  : "bg-transparent border-slate-200 hover:border-slate-300"
+                  }`}
               >
-                Contact Support <FiArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
-           </div>
+                <button
+                  onClick={() => setActiveIndex(activeIndex === idx ? -1 : idx)}
+                  className="w-full text-left p-8 md:p-10 flex items-center justify-between gap-6"
+                >
+                  <span className={`text-xl md:text-2xl font-black transition-colors duration-500 ${activeIndex === idx ? "text-orange-500" : "text-slate-950 group-hover:text-orange-500"
+                    }`}>
+                    {faq.q}
+                  </span>
+                  <div className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-all duration-500 ${activeIndex === idx ? "bg-orange-500 text-white rotate-180" : "bg-slate-100 text-slate-400 group-hover:bg-slate-950 group-hover:text-white"
+                    }`}>
+                    {activeIndex === idx ? <FiMinus size={20} /> : <FiPlus size={20} />}
+                  </div>
+                </button>
+
+                <div className={`overflow-hidden transition-all duration-700 ease-in-out ${activeIndex === idx ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                  }`}>
+                  <div className="p-8 md:p-10 pt-0 border-t border-slate-50">
+                    <p className="text-slate-500 text-[17px] font-medium leading-relaxed">
+                      {faq.a}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
         </div>
 
       </div>

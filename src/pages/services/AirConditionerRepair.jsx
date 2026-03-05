@@ -5,23 +5,23 @@ import ServicePageLayout from '../../components/ServicePageLayout';
 const AirConditionerRepair = () => {
   const features = [
     {
-      title: "Cooling Recovery",
-      desc: "Fast restoration of cooling efficiency for all split and window AC units.",
+      title: "Performance Tune-Up",
+      desc: "Comprehensive restoration of cooling efficiency for split, window, and central AC systems.",
       icon: <PiWindFill />
     },
     {
-      title: "Gas Refilling",
-      desc: "Safe and accurate refrigerant gas top-up for optimal AC performance.",
+      title: "Precision Gas Refill",
+      desc: "Safe, factory-standard refrigerant charging to ensure your unit cools like new.",
       icon: <PiThermometerFill />
     },
     {
-      title: "PCB Diagnostics",
-      desc: "Expert repair for complex circuit board and electronic malfunctions.",
+      title: "Advanced Electronics",
+      desc: "Deep diagnostics and precision repair for inverter PCB boards and control systems.",
       icon: <PiGearFill />
     },
     {
-      title: "Deep Cleaning",
-      desc: "Thorough filter and coil maintenance to improve air quality and flow.",
+      title: "Antibacterial Clean",
+      desc: "Professional-grade deep cleaning of coils and filters for healthier, fresher air.",
       icon: <PiDropFill />
     }
   ];
@@ -29,21 +29,21 @@ const AirConditionerRepair = () => {
   return (
     <ServicePageLayout
       title="Air Conditioner"
-      titleAccent="Service."
-      metaTitle="AC Repair & Service | Same Day Support | Fix Appliancepro"
-      metaDesc="Professional AC repair and maintenance for all brands. We handle gas refilling, PCB repair, and deep cleaning."
-      heroDesc="Stay cool all year round. We provide expert repair, maintenance, and gas filling services for split and window AC units."
+      titleAccent="Experts."
+      metaTitle="Premium AC Repair & Service | Same Day Support | My Appliancerescue"
+      metaDesc="Professional AC repair and maintenance for all major brands. We handle gas refilling, PCB diagnostics, and deep antibacterial cleaning."
+      heroDesc="Stay cool without the stress. Our dedicated team provides expert repair, precision maintenance, and factory-standard gas filling at your doorstep."
       image="/service-7.jpg"
-      mainDesc="Our services include deep filter cleaning, gas pressure checks, and advanced circuit board diagnostics. We aim to optimize cooling efficiency and address common operational noises, ensuring your comfort during the hottest days."
+      mainDesc="A malfunctioning AC can make life unbearable. We specialize in rapid diagnostics and long-term solutions for all cooling issues. From minor operational noises to complex compressor failures, our technicians use state-of-the-art tools to restore your comfort immediately."
       highlights={[
-        "Certified AC specialists",
-        "Prompt doorstep service",
-        "Transparent service charges",
-        "45-day service warranty"
+        "Specialized Inverter Techs",
+        "Prompt 45-Min Response",
+        "Fixed & Honest Pricing",
+        "Premium Service Warranty"
       ]}
       features={features}
-      ctaHeading="AC Not Cooling?"
-      ctaSubheading="Get Fast Relief Today."
+      ctaHeading="AC Lost Its Cool?"
+      ctaSubheading="We'll Restore It Today."
     />
   );
 };
